@@ -1,0 +1,19 @@
+{
+  "name": "amazonlagos-logistics",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/stylesheets/sass/main.scss  src/stylesheets/main.css --watch",
+    "tailwind": "npx tailwindcss -i src/stylesheets/tailwindcss/input.css -o src/stylesheets/tailwindcss/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2"
+  }
+}
