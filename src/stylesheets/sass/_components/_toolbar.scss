@@ -1,0 +1,28 @@
+nav {
+  .link {
+    &:not(:last-child) {
+      &:hover {
+        color: var(--clr-primary);
+      }
+    }
+
+    &:last-child {
+      background: var(--clr-primary);
+      display: block;
+    }
+  }
+  [aria-current="page"] {
+    color: var(--clr-primary);
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      background-color: var(--clr-primary);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+}

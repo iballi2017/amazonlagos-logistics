@@ -33,6 +33,28 @@
   font-family: var(--ff-body) !important;
 }
 
+nav .link:not(:last-child):hover {
+  color: var(--clr-primary);
+}
+nav .link:last-child {
+  background: var(--clr-primary);
+  display: block;
+}
+nav [aria-current=page] {
+  color: var(--clr-primary);
+  position: relative;
+}
+nav [aria-current=page]::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: var(--clr-primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -62,7 +84,7 @@ html {
 }
 
 .main-container {
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
