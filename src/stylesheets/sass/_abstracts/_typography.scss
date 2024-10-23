@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+
+:root {
+  /* TYPOGRAPHY */
+  --ff-primary: "Nunito Sans", sans-serif;
+  --ff-secondary: "Nunito Sans", sans-serif;
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-secondary);
+
+
+}
+
+$bodyFontFamily: var(--ff-body) !important;
+$titleFontFamily: var(--ff-secondary);
+
+
+// body {
+  // font-family: "Nunito Sans", sans-serif;
+  // font-optical-sizing: auto;
+  // font-weight: <weight>;
+  // font-style: normal;
+  // font-variation-settings:
+  //   "wdth" 100,
+  //   "YTLC" 500;
+// }
+
+.ff-title {
+  font-family: $titleFontFamily;
+}
+
+.ff-body {
+  font-family: $bodyFontFamily;
+}

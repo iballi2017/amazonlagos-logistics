@@ -1,0 +1,23 @@
+:root {
+  // --max-width: 1680px;
+  // --max-width: 1600px;
+  --max-width: 1440px;
+  --padding: 0.5rem;
+}
+
+.main-container {
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+
+// .hero-main-container {
+//   --max-wrapper-width: 1600px;
+//   width: min(var(--max-wrapper-width), 100% - (var(--padding) * 2));
+//   margin-inline: auto;
+// }
+
+// .mg-main-wrapper {
+//   width: 100%;
+//   max-width: var(--max-width);
+//   margin-inline: auto;
+// }
