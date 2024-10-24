@@ -1,4 +1,10 @@
 nav {
+  #mobile-menu{
+    display: none;
+    &.show{
+      display: block;
+    }
+  }
   .link {
     &:not(:last-child) {
       &:hover {

@@ -6,15 +6,17 @@
     --clr-baseText: hsl(0, 0%, 56%);
     --clr-light: hsl(0, 0%, 98%);
     --clr-light-100: #f6f6f6;
+    --clr-light-700: hsl(69, 19%, 79%);
     /* Theming */
     --theme-clr-primary: 70deg 72% 54%;
     --on-theme-clr-primary: 70deg 77% 21%;
     --theme-clr-secondary: 70deg 71% 8%;
-    --on-theme-clr-secondary: hsl(0, 0%, 100%);
+    --on-theme-clr-secondary: 0deg 0% 100%;
     --theme-clr-light: 0deg 0% 98%;
     --on-theme-clr-light: 0 0% 56%;
     --theme-clr-light-100: 0deg 0% 96%;
     --on-theme-clr-light-100: var(--theme-clr-secondary);
+    --theme-clr-light-700: 69deg 19% 79%;
   }
 }
 :root {
@@ -33,6 +35,12 @@
   font-family: var(--ff-body) !important;
 }
 
+nav #mobile-menu {
+  display: none;
+}
+nav #mobile-menu.show {
+  display: block;
+}
 nav .link:not(:last-child):hover {
   color: var(--clr-primary);
 }
@@ -53,6 +61,10 @@ nav [aria-current=page]::after {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.hero-carousel .owl-dots {
+  display: none;
 }
 
 * {
@@ -79,7 +91,7 @@ html {
 }
 
 :root {
-  --max-width: 1440px;
+  --max-width: 1200px;
   --padding: 0.5rem;
 }
 

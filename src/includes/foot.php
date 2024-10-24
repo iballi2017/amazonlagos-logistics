@@ -12,7 +12,7 @@
 
 <!-- custom scripts -->
 <script src="./scripts/main.jquery.js"></script>
-<script src="./scripts/main.js"></script>
+<script src="./scripts/main.js" type="module"></script>
 </body>
 
 </html>

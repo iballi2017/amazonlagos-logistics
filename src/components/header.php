@@ -1,13 +1,13 @@
 <!-- main header -->
 <header>
     <nav class="bg-theme-clr-secondary text-white">
-        <div class="main-container">
+        <div class="main-container py-4 lg:py-0">
             <div class="relative flex items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     <!-- Mobile menu button-->
                     <button type="button"
                         class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                        aria-controls="mobile-menu" aria-expanded="false">
+                        aria-controls="mobile-menu" data-target="mobile-menu" aria-expanded="false">
                         <span class="absolute -inset-0.5"></span>
                         <span class="sr-only">Open main menu</span>
                         <!--
@@ -33,28 +33,26 @@
                 </div>
                 <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start">
                     <div class="flex flex-shrink-0 items-center | font-bold text-2xl">
-                        <!-- <img class="h-8 w-auto"
-                            src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                            alt="Your Company"> -->
-                            AmazonLagos
+                        <img class="w-32"
+                            src="./assets/images/brand-logo.svg"
+                            alt="Your Company">
+                            <span class="sr-only">AmazonLagos</span>
                     </div>
-                    <!-- <div class="hidden sm:ml-6 sm:block">
-                    </div> -->
                 </div>
                 <div class="hidden sm:flex absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
                     <div class="flex items-center space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="#" class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-sm font-medium uppercase"
+                        <a href="#" class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase"
                             aria-current="page">Home</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-sm font-medium uppercase">About Us</a>
+                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">About Us</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-sm font-medium uppercase">Services</a>
+                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">Services</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-sm font-medium uppercase">Contact Us</a>
+                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">Contact Us</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-3 block h-full text-sm font-bold uppercase text-on-theme-clr-primary">Get a Quote</a>
+                            class="link | rounded-md px-3 xl:px-6 py-3 block h-full text-xs font-bold uppercase text-on-theme-clr-primary">Get a Quote</a>
                     </div>
                 </div>
             </div>
