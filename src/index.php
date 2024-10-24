@@ -77,7 +77,48 @@
         <h2 class="inline-block bg-theme-clr-secondary text-on-theme-clr-secondary rounded-r-full rounded-l-full
             font-semibold px-4 py-1.5 uppercase mb-4">We are AmazonLagos</h2>
         <p class="text-[1.8rem] font-extrabold uppercase mb-2">Why we are considered the best</p>
-        <p class="mb-3">Welcome to AmazonLagos, where we are dedicated to transforming the online shopping experience for Nigerians. Our mission is to bridge the gap between Nigeria and leading global e-commerce platforms such as Amazon, Alibaba, and AliExpress. </p>
+        <p class="mb-3">Exceptional Service and Unmatched Convenience for Every Shopper</p>
+
+        <div class="my-8"></div>
+
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12 lg:col-span-3">
+                <div class="flex flex-col items-center gap-4 py-10 px-6 bg-white rounded-lg shadow">
+                    <div>
+                        <img src="./assets/images/seamless-access-to-global-markets.png" alt="Seamless Access to Global Markets">
+                    </div>
+                    <h6 class="text-theme-clr-secondary font-bold">Seamless Access<br class="hidden lg:block" /> to Global Markets</h6>
+                    <p class="text-on-theme-clr-light">We offer Nigerians easy access to international e-commerce sites with a diverse range of tailored products.</p>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-3">
+                <div class="flex flex-col items-center gap-4 py-10 px-6 bg-white rounded-lg shadow">
+                    <div>
+                        <img src="./assets/images/flexible-payment-options.png" alt="Seamless Access to Global Markets">
+                    </div>
+                    <h6 class="text-theme-clr-secondary font-bold">Flexible <br class="hidden lg:block" /> Payment Options</h6>
+                    <p class="text-on-theme-clr-light">Our platform allows for easy payments in Naira or with dollar cards, simplifying the shopping process.</p>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-3">
+                <div class="flex flex-col items-center gap-4 py-10 px-6 bg-white rounded-lg shadow">
+                    <div>
+                        <img src="./assets/images/reliable-logistics-and-delivery.png" alt="Seamless Access to Global Markets">
+                    </div>
+                    <h6 class="text-theme-clr-secondary font-bold">Reliable <br class="hidden lg:block" /> Logistics and Delivery</h6>
+                    <p class="text-on-theme-clr-light">We ensure efficient shipping from our U.S. warehouse directly to Nigerian addresses, prioritizing timely delivery.</p>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-3">
+                <div class="flex flex-col items-center gap-4 py-10 px-6 bg-white rounded-lg shadow">
+                    <div>
+                        <img src="./assets/images/dedicated-cCustomer-support.png" alt="Seamless Access to Global Markets">
+                    </div>
+                    <h6 class="text-theme-clr-secondary font-bold">Dedicated <br class="hidden lg:block" /> Customer Support</h6>
+                    <p class="text-on-theme-clr-light">Our customer service team is always available to assist, ensuring a smooth and supportive shopping experience.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
