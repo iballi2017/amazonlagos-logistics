@@ -1,7 +1,7 @@
 <!-- main header -->
 <header>
     <nav class="bg-theme-clr-secondary text-white">
-        <div class="main-container py-4 lg:py-0">
+        <div class="main-container py-6 lg:py-0">
             <div class="relative flex items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     <!-- Mobile menu button-->
@@ -43,14 +43,14 @@
 
                     <div class="flex items-center space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="#" class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase"
+                        <a href="#" class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase"
                             aria-current="page">Home</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">About Us</a>
+                            class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">About Us</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">Services</a>
+                            class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Services</a>
                         <a href="#"
-                            class="link | rounded-md px-3 xl:px-6 py-6 block h-full text-xs font-medium uppercase">Contact Us</a>
+                            class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Contact Us</a>
                         <a href="#"
                             class="link | rounded-md px-3 xl:px-6 py-3 block h-full text-xs font-bold uppercase text-on-theme-clr-primary">Get a Quote</a>
                     </div>
