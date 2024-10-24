@@ -1,0 +1,29 @@
+@layer base {
+    :root {
+        --clr-primary: hsl(70, 72%, 54%); // #C3DE35;
+        --clr-secondary: hsl(70, 71%, 8%); // #1F2406;
+        // --clr-accent: ;
+        --clr-baseText: hsl(0, 0%, 56%); //#909090;
+        --clr-light: hsl(0, 0%, 98%); //#FAFAFA;
+        --clr-light-100: #f6f6f6; //#F6F6F6;
+        --clr-light-700: hsl(69, 19%, 79%); //#D0D3BF;
+
+        /* Theming */
+        --theme-clr-primary: 70deg 72% 54%; // #C3DE35;
+        --on-theme-clr-primary: 70deg 77% 21%; // #505D0C;
+        --theme-clr-secondary: 70deg 71% 8%; // #1F2406;
+        --on-theme-clr-secondary: 0deg 0% 100%; // #FFFFFF;
+        --theme-clr-light: 0deg 0% 98%; //#FAFAFA;
+        --on-theme-clr-light: 0 0% 56%; //##909090;
+        --theme-clr-light-100: 0deg 0% 96%; //#F6F6F6;
+        --on-theme-clr-light-100: var(--theme-clr-secondary); //#1F2406;
+        // --on-theme-clr-light-100:  70deg 71% 8%; //#1F2406;  
+        --theme-clr-light-700: 69deg 19% 79%; //#D0D3BF;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {}
+}
+
+:root[data-theme="dark"] {}
