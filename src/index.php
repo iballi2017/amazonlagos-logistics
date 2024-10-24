@@ -132,10 +132,10 @@
             <div class="grid grid-cols-2 gap-4 lg:gap-6">
                 <div class="col-span-2 lg:col-span-1">
                     <div class="grid grid-cols-12 items-center gap-4 py-10 px-6 bg-white rounded-lg shadow h-full">
-                        <div class="col-span-12 lg:col-span-5">
+                        <div class="col-span-12 lg:col-span-5 flex lg:block justify-center">
                             <img src="./assets/images/jombo-pack-buy-and-ship.png" alt="Jombo pack: Buy & Ship">
                         </div>
-                        <div class="col-span-12 lg:col-span-7">
+                        <div class="col-span-12 lg:col-span-7 flex flex-col lg:block items-center">
                             <h6 class="text-theme-clr-secondary font-bold mb-2">Jombo pack: Buy & Ship</h6>
                             <p class="text-on-theme-clr-light mb-2">This segment allows customers to shop from international platforms using Naira, eliminating the need for a dollar card.</p>
                             <a href="#"
@@ -146,10 +146,10 @@
                 </div>
                 <div class="col-span-2 lg:col-span-1">
                     <div class="grid grid-cols-12 items-center gap-4 py-10 px-6 bg-white rounded-lg shadow h-full">
-                        <div class="col-span-12 lg:col-span-5">
+                        <div class="col-span-12 lg:col-span-5 flex lg:block justify-center">
                             <img src="./assets/images/ship-only.png" alt="Ship only">
                         </div>
-                        <div class="col-span-12 lg:col-span-7">
+                        <div class="col-span-12 lg:col-span-7 flex flex-col lg:block items-center">
                             <h6 class="text-theme-clr-secondary font-bold mb-2">Ship only</h6>
                             <p class="text-on-theme-clr-light mb-2">This segment focuses on logistics, enabling customers to ship their purchases to a U.S. warehouse, from where AmazonLagos will handle the shipping to their Nigerian addresses.</p>
                             <a href="#"
