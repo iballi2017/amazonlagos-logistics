@@ -942,6 +942,10 @@ input[type="range"]::-ms-fill-lower {
   grid-column: span 2 / span 2;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -1250,6 +1254,11 @@ input[type="range"]::-ms-fill-lower {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-3 {
