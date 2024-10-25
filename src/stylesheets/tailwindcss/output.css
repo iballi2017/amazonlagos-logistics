@@ -1023,10 +1023,6 @@ input[type="range"]::-ms-fill-lower {
   width: 100%;
 }
 
-.max-w-40 {
-  max-width: 10rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1275,11 +1271,6 @@ input[type="range"]::-ms-fill-lower {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-\[1\.8rem\] {
