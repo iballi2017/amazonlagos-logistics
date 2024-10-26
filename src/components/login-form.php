@@ -6,7 +6,7 @@
             <!-- Modal header -->
             <div class="relative flex flex-col items-center justify-center p-4 md:p-8">
                 <h3 class="text-lg lg:text-xl font-bold text-center">
-                    Registration
+                    Welcome back,
                 </h3>
                 <p class="lg:text-lg font-bold text-center">Don't have an account, <button id="close-login-open-register-form-btn" class="text-theme-clr-primary">Create new account</button></p>
 
