@@ -1,0 +1,41 @@
+.iti {
+  &.iti--allow-dropdown {
+    display: block;
+    // background-color: greenyellow;
+    // padding: 0.4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    &.iti--show-flags {
+      width: 100%;
+      //   background-color: blue;
+
+      .iti__tel-input {
+        padding-left: 50px !important;
+        // background-color: red;
+        width: 100%;
+      }
+    }
+  }
+}
+.iti .iti__country-container {
+  display: none;
+}
+
+.intl-tel-input {
+  width: 300px;
+  background-color: red;
+}
+
+::backdrop{
+  z-index: 60;
+}
+
+.iti--container {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  z-index: 106020000;
+  padding: 1px;
+}

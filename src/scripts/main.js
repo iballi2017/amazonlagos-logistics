@@ -2,14 +2,39 @@ import Toggle from "./Toggle.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const Init = () => {
+        handle_dialog();
         handle_toggle();
         handle_intersection_effects();
+
+
+    }
+
+    const handle_dialog = () => {
+        // const show_modal_btn = document.querySelector(".show-modal-btn");
+        // const dialog = document.querySelector("dialog");
+        // show_modal_btn.addEventListener("click", () => {
+        //     dialog.showModal()
+        // });
+        const show_modal_btns = document.querySelectorAll(".modal-control");
+        for (let i = 0; i < show_modal_btns.length; i++) {
+            const btn = show_modal_btns[i];
+            console.log("btn: ", btn)
+            const attr = btn.getAttribute("aria-dialog-controls");
+            const target = document.querySelector(`#${attr}`);
+            console.log("target: ", target)
+            btn.addEventListener("click", () => {
+                target.showModal()
+            });
+
+        }
     }
 
     const handle_toggle = () => {
         const controls = document.querySelectorAll("[aria-controls]");
         for (let i = 0; i < controls.length; i++) {
             const element = controls[i];
+            console.warn({ element });
+            if (!element.hasAttributes("data-dropdown-toggle")) return;
             const attr = element.getAttribute("aria-controls");
             const target = document.querySelector(`#${attr}`);
 
