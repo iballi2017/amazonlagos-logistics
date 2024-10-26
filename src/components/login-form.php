@@ -4,7 +4,7 @@
         <!-- Modal content -->
         <div class="relative bg-white shadow text-theme-clr-secondary">
             <!-- Modal header -->
-            <div class="relative flex flex-col items-center justify-center p-4 md:p-8">
+            <div class="relative flex flex-col items-center justify-center p-4 md:pt-8">
                 <h3 class="text-lg lg:text-xl font-bold text-center">
                     Welcome back,
                 </h3>
@@ -22,7 +22,8 @@
 
             <!-- Modal body -->
             <div class="p-4 md:p-8 space-y-8">
-                <button type="submit" class="flex gap-4 items-center justify-center bg-white border border-theme-clr-light-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm w-full px-5 py-3 text-center font-semibold">
+                <!-- <button type="submit" class="flex gap-4 items-center justify-center bg-white border border-theme-clr-light-800 focus:ring-1 focus:outline-none focus:ring-theme-clr-primary rounded-lg text-sm w-full px-5 py-3 text-center font-semibold"> -->
+                <button type="submit" class="flex gap-4 items-center justify-center bg-white border border-theme-clr-light-800 focus:ring-1 focus:outline-none focus:ring-theme-clr-primary rounded-lg text-sm w-full px-5 py-3 text-center font-semibold">
 
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.76215 15.7122L4.85712 19.0908L1.54928 19.1607C0.560726 17.3272 0 15.2294 0 13.0001C0 10.8443 0.524265 8.81147 1.45356 7.02148H1.45427L4.39918 7.56139L5.68922 10.4886C5.41922 11.2758 5.27206 12.1208 5.27206 13.0001C5.27216 13.9543 5.44502 14.8687 5.76215 15.7122Z" fill="#FBBB00" />
@@ -44,16 +45,16 @@
                 <form action="" autocomplete="off">
                     <div class="grid grid-cols-12 gap-2 lg:gap-4">
                         <div class="col-span-12">
-                            <label for="email" class="mb-2 font-medium text-theme-clr-secondary flex items-center justify-between">
+                            <label for="login_email" class="mb-2 font-medium text-theme-clr-secondary flex items-center justify-between cursor-pointer">
                                 <span>Email address</span>
 
-                                <a href="#" class="text-sm text-[#518EF8]"><i>Forgot password</i></a>
+                                <a href="./forgot-password.php" class="text-sm text-[#518EF8]"><i>Forgot password</i></a>
                             </label>
-                            <input autocomplete="off" type="email" id="email" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
+                            <input autocomplete="off" type="email" id="login_email" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
                         </div>
                         <div class="col-span-12">
-                            <label for="password" class="block mb-2 font-medium text-theme-clr-secondary">Password</label>
-                            <input autocomplete="off" type="password" id="password" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
+                            <label for="login_password" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Password</label>
+                            <input autocomplete="off" type="password" id="login_password" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
                         </div>
                         <div class="col-span-12">
 
@@ -69,7 +70,7 @@
 
 
                         <div class="col-span-12">
-                            <button type="submit" class="bg-theme-clr-primary focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg w-full px-5 py-3 text-center font-semibold">
+                            <button type="submit" class="bg-theme-clr-primary focus:ring-4 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">
                                 Login
                             </button>
                         </div>
