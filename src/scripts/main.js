@@ -53,12 +53,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const registerModal = new Modal(registerTargetEl, options2);
 
         close_login_open_register_form_btn.addEventListener("click", () => {
-            // console.log("hello", modal);
+            console.log("close_login_open_register_form_btn");
             loginModal && loginModal.hide()
             registerModal && registerModal.show()
         })
 
         close_register_open_login_form_btn.addEventListener("click", () => {
+            console.log("close_register_open_login_form_btn");
             registerModal && registerModal.hide()
             loginModal && loginModal.show()
         })

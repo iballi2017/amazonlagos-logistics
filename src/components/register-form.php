@@ -8,9 +8,9 @@
                 <h3 class="text-lg lg:text-xl font-bold text-center">
                     Registration
                 </h3>
-                <p class="lg:text-lg font-bold text-center">If you already have an account, <button class="text-theme-clr-primary">Login here</></p>
+                <p class="lg:text-lg font-bold text-center">If you already have an account, <button id="close-register-open-login-form-btn" class="text-theme-clr-primary">Login here</></p>
 
-                <button type="button" id="close-register-open-login-form-btn" class="absolute top-5 right-5 bg-transparent hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="register-modal">
+                <button type="button" class="absolute top-5 right-5 bg-transparent hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="register-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
