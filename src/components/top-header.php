@@ -1,3 +1,5 @@
+<button id="open-login-open-register-form-btn">Open</button>
+
 <div class="bg-theme-clr-light text-on-theme-clr-light">
     <ul class="main-container | flex flex-wrap items-center justify-between text-sm py-3">
         <li class="flex gap-2">
@@ -16,9 +18,9 @@
         <li class="flex items-center">
             <span class="flex items-center gap-2 font-semibold">
                 <!-- <button class="show-register-modal-btn | modal-control" aria-dialog-controls="register-modal">Register</button> -->
-                <button class="show-register-modal-btn" data-modal-target="default-modal" data-modal-toggle="default-modal">Register</button>
+                <button class="show-register-modal-btn" id="open-register-form-btn">Register</button>
                 <span>/</span>
-                <button class="show-login-modal-btn | modal-control" data-modal-target="login-modal" data-modal-toggle="login-modal">Login</button>
+                <button class="show-login-modal-btn" id="open-login-form-btn">Login</button>
             </span>
             <span class="flex items-center gap-2 font-semibold">
                 <a href="">

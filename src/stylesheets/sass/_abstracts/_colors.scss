@@ -7,6 +7,7 @@
         --clr-light: hsl(0, 0%, 98%); //#FAFAFA;
         --clr-light-100: #f6f6f6; //#F6F6F6;
         --clr-light-700: hsl(69, 19%, 79%); //#D0D3BF;
+        --clr-light-800: hsl(0, 0%, 69%); //#B1B1B1;
 
         /* Theming */
         --theme-clr-primary: 70deg 72% 54%; // #C3DE35;
@@ -19,6 +20,7 @@
         --on-theme-clr-light-100: var(--theme-clr-secondary); //#1F2406;
         // --on-theme-clr-light-100:  70deg 71% 8%; //#1F2406;  
         --theme-clr-light-700: 69deg 19% 79%; //#D0D3BF;
+        --theme-clr-light-800: 0deg 0% 69%; //#B1B1B1;
     }
 }
 

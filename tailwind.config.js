@@ -14,6 +14,7 @@ module.exports = {
       "theme-clr-light-100": 'hsl(var(--theme-clr-light-100) / <alpha-value>)',
       "on-theme-clr-light-100": 'hsl(var(--on-theme-clr-light-100) / <alpha-value>)',
       "theme-clr-light-700": 'hsl(var(--theme-clr-light-700) / <alpha-value>)',
+      "theme-clr-light-800": 'hsl(var(--theme-clr-light-800) / <alpha-value>)',
     }
   },
   plugins: [
