@@ -16,7 +16,7 @@
         <li class="flex items-center">
             <span class="flex items-center gap-2 font-semibold">
                 <!-- <button class="show-register-modal-btn | modal-control" aria-dialog-controls="register-modal">Register</button> -->
-                <button class="show-register-modal-btn" data-modal-target="default-modal" data-modal-toggle="default-modal" >Register</button>
+                <button class="show-register-modal-btn" data-modal-target="default-modal" data-modal-toggle="default-modal">Register</button>
                 <span>/</span>
                 <button class="show-login-modal-btn | modal-control" aria-dialog-controls="login-modal">Login</button>
             </span>
@@ -101,3 +101,14 @@
         </li>
     </ul>
 </div>
+
+
+
+
+
+<!--  -->
+
+
+
+<?php include __DIR__ . "./register-form.php" ?>
+<?php include __DIR__ . "./login-form.php" ?>

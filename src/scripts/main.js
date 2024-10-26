@@ -10,12 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const password_type_togglers = document.querySelectorAll(".password-type-toggler");
         for (let i = 0; i < password_type_togglers.length; i++) {
             const toggler = password_type_togglers[i];
-            toggler.addEventListener("click", (e) => {
+            toggler.addEventListener("click", () => {
                 const password_input = toggler.nextElementSibling;
-                password_input.type === "password" ? password_input.type = "text" : password_input.type = "password"
-            })
-
-
+                password_input.type === "password" ?
+                    (password_input.type = "text", toggler.firstElementChild.classList.add('hidden'), toggler.lastElementChild.classList.remove('hidden')) :
+                    (password_input.type = "password", toggler.firstElementChild.classList.remove('hidden'), toggler.lastElementChild.classList.add('hidden'));
+                console.log({ firstChild: toggler.firstElementChild })
+                console.log({ lastChild: toggler.lastElementChild })
+            });
         }
 
 

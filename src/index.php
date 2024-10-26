@@ -305,10 +305,6 @@
 
 
 
-<?php include __DIR__ . "./components/register-form.php" ?>
-<?php include __DIR__ . "./components/login-form.php" ?>
-
-
 <button class="fixed right-2 bottom-4 z-[20000000]">
     <img src="./assets/icons/icon-chat.svg" alt="Chat with us" class="w-12 lg:w-20">
 </button>
