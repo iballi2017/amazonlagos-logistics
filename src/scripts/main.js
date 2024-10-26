@@ -7,6 +7,18 @@ document.addEventListener("DOMContentLoaded", () => {
         handle_intersection_effects();
 
 
+        const password_type_togglers = document.querySelectorAll(".password-type-toggler");
+        for (let i = 0; i < password_type_togglers.length; i++) {
+            const toggler = password_type_togglers[i];
+            toggler.addEventListener("click", (e) => {
+                const password_input = toggler.nextElementSibling;
+                password_input.type === "password" ? password_input.type = "text" : password_input.type = "password"
+            })
+
+
+        }
+
+
     }
 
     const handle_dialog = () => {
