@@ -90,7 +90,7 @@ nav [aria-current=page]::after {
 }
 
 .main-container {
-  width: min(var(--max-width), 100% - var(--padding) * 2);
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
 }
 
@@ -142,7 +142,7 @@ nav [aria-current=page]::after {
   height: 2px;
   width: 2px;
   display: block;
-  color: rgb(239, 68, 68);
+  color: #ef4444;
 }
 
 /*# sourceMappingURL=main.css.map */
