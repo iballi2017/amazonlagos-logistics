@@ -20,19 +20,44 @@
                 <button class="show-login-modal-btn" id="open-login-form-btn">Login</button>
             </span>
             <span class="flex items-center gap-2 font-semibold">
-                <a href="">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_230_960)">
-                            <rect width="20" height="19" rx="9.5" fill="#C3DE35" />
-                            <path d="M9.99996 16.2292C10.802 16.2292 11.4583 15.6446 11.4583 14.93H8.54163C8.54163 15.6446 9.19788 16.2292 9.99996 16.2292ZM14.375 12.3317V9.08387C14.375 7.08968 13.1864 5.42028 11.0937 4.97857V4.53686C11.0937 3.99771 10.6052 3.5625 9.99996 3.5625C9.39475 3.5625 8.90621 3.99771 8.90621 4.53686V4.97857C6.82079 5.42028 5.62496 7.08318 5.62496 9.08387V12.3317L4.16663 13.6309V14.2804H15.8333V13.6309L14.375 12.3317ZM12.9166 12.9813H7.08329V9.08387C7.08329 7.47293 8.18433 6.16079 9.99996 6.16079C11.8156 6.16079 12.9166 7.47293 12.9166 9.08387V12.9813Z" fill="white" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_230_960">
-                                <rect width="20" height="19" rx="9.5" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </a>
+                <div class="relative">
+                    <button aria-controls="user-notification-dropdown" data-dropdown-toggle="user-notification-dropdown">
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_230_960)">
+                                <rect width="20" height="19" rx="9.5" fill="#C3DE35" />
+                                <path d="M9.99996 16.2292C10.802 16.2292 11.4583 15.6446 11.4583 14.93H8.54163C8.54163 15.6446 9.19788 16.2292 9.99996 16.2292ZM14.375 12.3317V9.08387C14.375 7.08968 13.1864 5.42028 11.0937 4.97857V4.53686C11.0937 3.99771 10.6052 3.5625 9.99996 3.5625C9.39475 3.5625 8.90621 3.99771 8.90621 4.53686V4.97857C6.82079 5.42028 5.62496 7.08318 5.62496 9.08387V12.3317L4.16663 13.6309V14.2804H15.8333V13.6309L14.375 12.3317ZM12.9166 12.9813H7.08329V9.08387C7.08329 7.47293 8.18433 6.16079 9.99996 6.16079C11.8156 6.16079 12.9166 7.47293 12.9166 9.08387V12.9813Z" fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_230_960">
+                                    <rect width="20" height="19" rx="9.5" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                    <div id="user-notification-dropdown" class="z-10 overflow-hidden hidden absolute right-0 left-0 w-96 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
+                        <h6 class="text-lg text-center p-2 bg-[#EBEBEB]">Notification</h6>
+                        <ul class="notification-list | py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="https://codesandbox.io/p/sandbox/angry-bouman-pcpmms" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: About your order</span>
+                                    <span>1s</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:4000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>1d</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>1d</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 <!-- User account dropdown -->
                 <div class="relative">

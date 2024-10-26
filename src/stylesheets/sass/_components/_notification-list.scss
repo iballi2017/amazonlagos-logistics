@@ -1,0 +1,32 @@
+.notification-list {
+  li {
+    &:not(&:last-child) {
+      a {
+        border-bottom: 1px solid var(--clr-baseText);
+      }
+    }
+
+    a {
+      padding-right: 20px;
+      &::after {
+        content: "";
+        display: block;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+      }
+      &:not(&:visited) {
+          color: red;
+        &::after {
+          background-color: var(--clr-primary);
+        }
+      }
+
+      //   &:visited {
+      //     color: blue;
+      //   }
+    }
+  }
+}

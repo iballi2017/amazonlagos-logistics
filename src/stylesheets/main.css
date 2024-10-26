@@ -96,6 +96,28 @@ html {
   padding: 1px;
 }
 
+.notification-list li:not(.notification-list li:last-child) a {
+  border-bottom: 1px solid var(--clr-baseText);
+}
+.notification-list li a {
+  padding-right: 20px;
+}
+.notification-list li a::after {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+}
+.notification-list li a:not(.notification-list li a:visited) {
+  color: red;
+}
+.notification-list li a:not(.notification-list li a:visited)::after {
+  background-color: var(--clr-primary);
+}
+
 nav .link:not(:last-child):hover {
   color: var(--clr-primary);
 }
