@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <button class="customPrevBtn | absolute z-[10000000] left-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
+        <button class="customPrevBtn | absolute z-50 left-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
             <svg class="hidden lg:block" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="48" height="48" fill="#C3DE35" />
                 <path d="M31 36L19 24L31 12" stroke="#505D0C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -49,7 +49,7 @@
 
             <span class="sr-only">Previous</span>
         </button>
-        <button class="customNextBtn | absolute z-[10000000] right-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
+        <button class="customNextBtn | absolute z-50 right-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
             <svg class="hidden lg:block" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="48" height="48" transform="matrix(-1 0 0 1 48 0)" fill="#C3DE35" />
                 <path d="M17 36L29 24L17 12" stroke="#505D0C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -302,6 +302,11 @@
         <p class="text-center text-sm">&copy;2024 AmazonLagos - All rights reserved</p>
     </div>
 </footer>
+
+
+
+<?php include __DIR__ . "./components/register-form.php" ?>
+<?php include __DIR__ . "./components/login-form.php" ?>
 
 
 <button class="fixed right-2 bottom-4 z-[20000000]">

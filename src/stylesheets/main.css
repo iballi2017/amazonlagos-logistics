@@ -58,6 +58,42 @@ html {
   font-family: var(--ff-body) !important;
 }
 
+.iti.iti--allow-dropdown {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.iti.iti--allow-dropdown.iti--show-flags {
+  width: 100%;
+}
+.iti.iti--allow-dropdown.iti--show-flags .iti__tel-input {
+  padding-left: 50px !important;
+  width: 100%;
+}
+
+.iti .iti__country-container {
+  display: none;
+}
+
+.intl-tel-input {
+  width: 300px;
+  background-color: red;
+}
+
+::backdrop {
+  z-index: 60;
+}
+
+.iti--container {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  z-index: 106020000;
+  padding: 1px;
+}
+
 nav .link:not(:last-child):hover {
   color: var(--clr-primary);
 }

@@ -15,9 +15,10 @@
         </li>
         <li class="flex items-center">
             <span class="flex items-center gap-2 font-semibold">
-                <a href="">Register</a>
+                <!-- <button class="show-register-modal-btn | modal-control" aria-dialog-controls="register-modal">Register</button> -->
+                <button class="show-register-modal-btn" data-modal-target="default-modal" data-modal-toggle="default-modal" >Register</button>
                 <span>/</span>
-                <a href="">Login</a>
+                <button class="show-login-modal-btn | modal-control" aria-dialog-controls="login-modal">Login</button>
             </span>
             <span class="flex items-center gap-2 font-semibold">
                 <a href="">
@@ -36,7 +37,7 @@
 
                 <!-- User account dropdown -->
                 <div class="relative">
-                    <button id="dropdownDefaultButton" aria-controls="user-account-dropdown" data-dropdown-toggle="dropdown" class="font-medium rounded-lg text-sm text-center inline-flex items-center" type="button">
+                    <button id="dropdownDefaultButton" aria-controls="user-account-dropdown" data-dropdown-toggle="user-account-dropdown" class="font-medium rounded-lg text-sm text-center inline-flex items-center" type="button">
                         Hi Adeleke. O
                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />

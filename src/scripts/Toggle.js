@@ -12,8 +12,8 @@ class Toggle {
             console.log("toggle")
             console.log({target:this.target})
             console.log({className:this.className})
-            this.target.classList.contains(this.className) ? this.target.classList.remove(this.className) :
-                this.target.classList.add(this.className)
+            this.target?.classList.contains(this.className) ? this.target.classList.remove(this.className) :
+                this.target?.classList.add(this.className)
         })
     }
 }
