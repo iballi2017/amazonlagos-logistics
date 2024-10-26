@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const controls = document.querySelectorAll("[aria-controls]");
         for (let i = 0; i < controls.length; i++) {
             const element = controls[i];
-            console.log("element: ", element)
             const attr = element.getAttribute("aria-controls");
             const target = document.querySelector(`#${attr}`);
 
@@ -24,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /* Page Content Intersection Observer */
         const faders = document.querySelectorAll(".fade-in");
         const sliders = document.querySelectorAll(".slide-in");
+        const fromBottoms = document.querySelectorAll(".from-bottom");
 
         const appearOptions = {
             threshold: 0,
@@ -51,6 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         sliders.forEach((slider) => {
+            appearOnScroll.observe(slider);
+        });
+
+        fromBottoms.forEach((slider) => {
             appearOnScroll.observe(slider);
         });
 
