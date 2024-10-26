@@ -1636,6 +1636,10 @@ input:checked + .toggle-bg {
   border-top-width: 1px;
 }
 
+.border-black\/30 {
+  border-color: rgb(0 0 0 / 0.3);
+}
+
 .border-blue-600 {
   --tw-border-opacity: 1;
   border-color: rgb(28 100 242 / var(--tw-border-opacity));
@@ -1664,15 +1668,6 @@ input:checked + .toggle-bg {
 .border-theme-clr-light-800 {
   --tw-border-opacity: 1;
   border-color: hsl(var(--theme-clr-light-800) / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-black\/30 {
-  border-color: rgb(0 0 0 / 0.3);
 }
 
 .border-t-theme-clr-primary {
