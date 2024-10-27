@@ -16,22 +16,23 @@ export const handle_dialog = () => {
             // console.log('modal is shown login');
         },
     }
-    const loginModal = new Modal(loginTargetEl, options);
-    const registerModal = new Modal(registerTargetEl, options);
+    
+    const loginModal = loginTargetEl && new Modal(loginTargetEl, options);
+    const registerModal = registerTargetEl && new Modal(registerTargetEl, options);
 
-    close_login_open_register_form_btn.addEventListener("click", () => {
+    close_login_open_register_form_btn?.addEventListener("click", () => {
         loginModal && loginModal.hide()
         registerModal && registerModal.show()
     })
 
-    close_register_open_login_form_btn.addEventListener("click", () => {
+    close_register_open_login_form_btn?.addEventListener("click", () => {
         registerModal && registerModal.hide()
         loginModal && loginModal.show()
     })
-    open_login_form_btn.addEventListener("click", () => {
+    open_login_form_btn?.addEventListener("click", () => {
         loginModal && loginModal.show()
     })
-    open_register_form_btn.addEventListener("click", () => {
+    open_register_form_btn?.addEventListener("click", () => {
         registerModal && registerModal.show()
     })
 

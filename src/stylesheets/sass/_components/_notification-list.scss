@@ -1,4 +1,6 @@
 .notification-list {
+    max-height: 300px;
+    overflow-y: auto;
   li {
     &:not(&:last-child) {
       a {
@@ -16,17 +18,14 @@
         border-radius: 50%;
         position: absolute;
         right: 10px;
+        background-color: white;
       }
       &:not(&:visited) {
-          color: red;
+        color: var(--clr-primary);
         &::after {
           background-color: var(--clr-primary);
         }
       }
-
-      //   &:visited {
-      //     color: blue;
-      //   }
     }
   }
 }

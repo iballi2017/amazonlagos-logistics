@@ -21,4 +21,4 @@
     <link rel="stylesheet" href="./stylesheets/main.css">
 </head>
 
-<body class="flex flex-col"></body>
+<body class="flex flex-col min-h-screen"></body>

@@ -60,6 +60,24 @@ html {
   font-family: var(--ff-body) !important;
 }
 
+ul.breadcrumb {
+  --space: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: var(--space);
+  color: white;
+}
+ul.breadcrumb li {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+ul.breadcrumb li ::after {
+  content: "/";
+  margin-left: var(--space);
+  display: inline-block;
+}
+
 .iti.iti--allow-dropdown {
   display: block;
   width: 100%;
@@ -96,6 +114,10 @@ html {
   padding: 1px;
 }
 
+.notification-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
 .notification-list li:not(.notification-list li:last-child) a {
   border-bottom: 1px solid var(--clr-baseText);
 }
@@ -110,12 +132,23 @@ html {
   border-radius: 50%;
   position: absolute;
   right: 10px;
+  background-color: white;
 }
 .notification-list li a:not(.notification-list li a:visited) {
-  color: red;
+  color: var(--clr-primary);
 }
 .notification-list li a:not(.notification-list li a:visited)::after {
   background-color: var(--clr-primary);
+}
+
+.page-title {
+  min-height: 200px;
+  background-image: url(../assets/images/hero-slide-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.311);
+  background-blend-mode: soft-light;
 }
 
 nav .link:not(:last-child):hover {

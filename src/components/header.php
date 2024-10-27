@@ -32,18 +32,20 @@
                     </button>
                 </div>
                 <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-start">
-                    <div class="flex flex-shrink-0 items-center | font-bold text-2xl">
-                        <img class="w-32"
-                            src="./assets/images/brand-logo.svg"
-                            alt="Your Company">
+                    <a href="./">
+                        <div class="flex flex-shrink-0 items-center | font-bold text-2xl">
+                            <img class="w-32"
+                                src="./assets/images/brand-logo.svg"
+                                alt="Your Company">
                             <span class="sr-only">AmazonLagos</span>
-                    </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="hidden sm:flex absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
                     <div class="flex items-center space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="#" class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase"
+                        <a href="./" class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase"
                             aria-current="page">Home</a>
                         <a href="#"
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">About Us</a>

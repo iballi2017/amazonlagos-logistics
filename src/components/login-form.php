@@ -50,11 +50,11 @@
 
                                 <a href="./forgot-password.php" class="text-sm text-[#518EF8]"><i>Forgot password</i></a>
                             </label>
-                            <input autocomplete="off" type="email" id="login_email" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
+                            <input autocomplete="new-email" type="email" id="login_email" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
                         </div>
                         <div class="col-span-12">
                             <label for="login_password" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Password</label>
-                            <input autocomplete="off" type="password" id="login_password" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
+                            <input autocomplete="new-password" type="password" id="login_password" class="border border-theme-clr-light-800 text-theme-clr-secondary rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full px-2.5 py-3" required />
                         </div>
                         <div class="col-span-12">
 

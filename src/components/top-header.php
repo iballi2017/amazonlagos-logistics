@@ -35,8 +35,8 @@
                         </svg>
                     </button>
                     <div id="user-notification-dropdown" class="z-10 overflow-hidden hidden absolute right-0 left-0 w-96 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
-                        <h6 class="text-lg text-center p-2 bg-[#EBEBEB]">Notification</h6>
-                        <ul class="notification-list | py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                        <h6 class="text-lg text-center p-2 bg-[#EBEBEB] text-theme-clr-secondary font-bold">Notification</h6>
+                        <ul class="notification-list | py-2 text-sm text-theme-clr-secondary" aria-labelledby="dropdownDefaultButton">
                             <li>
                                 <a href="https://codesandbox.io/p/sandbox/angry-bouman-pcpmms" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
                                     <span>Update: About your order</span>
@@ -52,7 +52,55 @@
                             <li>
                                 <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
                                     <span>Update: You made an order</span>
-                                    <span>1d</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
+                                    <span>Update: You made an order</span>
+                                    <span>2w</span>
                                 </a>
                             </li>
                         </ul>
@@ -68,7 +116,7 @@
                         </svg>
                     </button>
                     <div id="user-account-dropdown" class="z-10 overflow-hidden hidden absolute right-0 left-0 w-60 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
-                        <h6 class="text-lg text-center p-2 bg-[#EBEBEB]">Account Management</h6>
+                        <h6 class="text-lg text-center p-2 bg-[#EBEBEB] text-theme-clr-secondary font-bold">Account Management</h6>
                         <ul class="py-2 px-3 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                             <li>
                                 <a href="#" class="flex items-center gap-2 px-4 py-2 hover:bg-theme-clr-primary rounded-md">
