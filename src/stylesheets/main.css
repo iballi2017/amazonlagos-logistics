@@ -114,17 +114,16 @@ ul.breadcrumb li ::after {
   padding: 1px;
 }
 
-.notification-list {
-  max-height: 300px;
-  overflow-y: auto;
-}
 .notification-list li:not(.notification-list li:last-child) a {
   border-bottom: 1px solid var(--clr-baseText);
 }
 .notification-list li a {
   padding-right: 20px;
 }
-.notification-list li a::after {
+.notification-list li a div:first-child {
+  flex-basis: 95%;
+}
+.notification-list li a .tick {
   content: "";
   display: block;
   height: 6px;
@@ -133,11 +132,16 @@ ul.breadcrumb li ::after {
   position: absolute;
   right: 10px;
   background-color: white;
+  margin-right: 15px;
+  flex-basis: 5%;
+}
+.notification-list li a:hover .tick {
+  background-color: #e5e7eb;
 }
 .notification-list li a:not(.notification-list li a:visited) {
   color: var(--clr-primary);
 }
-.notification-list li a:not(.notification-list li a:visited)::after {
+.notification-list li a:not(.notification-list li a:visited) .tick {
   background-color: var(--clr-primary);
 }
 
@@ -183,7 +187,7 @@ nav [aria-current=page]::after {
 }
 
 .main-container {
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
@@ -235,7 +239,7 @@ nav [aria-current=page]::after {
   height: 2px;
   width: 2px;
   display: block;
-  color: #ef4444;
+  color: rgb(239, 68, 68);
 }
 
 /*# sourceMappingURL=main.css.map */

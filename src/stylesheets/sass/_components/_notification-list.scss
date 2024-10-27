@@ -1,6 +1,7 @@
 .notification-list {
-    max-height: 300px;
-    overflow-y: auto;
+  // max-height: 300px;
+  // overflow-y: auto;
+
   li {
     &:not(&:last-child) {
       a {
@@ -10,7 +11,12 @@
 
     a {
       padding-right: 20px;
-      &::after {
+
+      div:first-child {
+        flex-basis: 95%;
+      }
+
+      .tick {
         content: "";
         display: block;
         height: 6px;
@@ -19,12 +25,38 @@
         position: absolute;
         right: 10px;
         background-color: white;
+        margin-right: 15px;
+        flex-basis: 5%;
+
       }
+
+      &:hover {
+        .tick {
+          background-color: #e5e7eb;
+        }
+      }
+
+      // &::after {
+      //   content: "";
+      //   display: block;
+      //   height: 6px;
+      //   width: 6px;
+      //   border-radius: 50%;
+      //   position: absolute;
+      //   right: 10px;
+      //   background-color: white;
+      //   margin-right: 15px;
+      // }
       &:not(&:visited) {
         color: var(--clr-primary);
-        &::after {
+
+        .tick {
           background-color: var(--clr-primary);
         }
+
+        // &::after {
+        //   background-color: var(--clr-primary);
+        // }
       }
     }
   }

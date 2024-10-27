@@ -1,9 +1,9 @@
 <!-- head -->
-<?php include __DIR__ . "/includes/head.php" ?>
+<?php include "./includes/head.php" ?>
 <!-- top header -->
-<?php include __DIR__ . "/components/top-header.php" ?>
+<?php include "./components/top-header.php" ?>
 
-<?php include __DIR__ . "/components/toolbar.php" ?>
+<?php include "./components/toolbar.php" ?>
 
 <main class="min-h-96 flex items-stretch justify-stretch">
     <div class="main-container text-theme-clr-secondary min-h-40 lg:min-h-96 flex flex-col items-center justify-center py-12">
@@ -30,6 +30,6 @@
 
 
 <!-- footer -->
-<?php include __DIR__ . "/components/footer.php" ?>
+<?php include "./components/footer.php" ?>
 <!-- foot -->
-<?php include __DIR__ . "/includes/foot.php" ?>
+<?php include "./includes/foot.php" ?>

@@ -1,5 +1,5 @@
 <!-- head -->
-<?php include __DIR__ . "/includes/head.php" ?>
+<?php include "./includes/head.php" ?>
 
 <main class="h-screen flex flex-col items-center justify-center">
     <img src="./assets/images/thumbs-up.png" alt="Thumbs Up!" class="text-on-theme-clr-primary fade-in" data-delay="800">
@@ -12,4 +12,4 @@
 
 
 <!-- foot -->
-<?php include __DIR__ . "/includes/foot.php" ?>
+<?php include "./includes/foot.php" ?>

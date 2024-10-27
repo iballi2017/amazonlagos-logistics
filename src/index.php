@@ -1,9 +1,9 @@
 <!-- head -->
-<?php include __DIR__ . "/includes/head.php" ?>
+<?php include "./includes/head.php" ?>
 <!-- top header -->
-<?php include __DIR__ . "/components/top-header.php" ?>
+<?php include "./components/top-header.php" ?>
 
-<?php include __DIR__ . "/components/toolbar.php" ?>
+<?php include "./components/toolbar.php" ?>
 
 
 <section id="hero">
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <button class="customPrevBtn | absolute z-50 left-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
+        <button class="customPrevBtn | absolute z-40 left-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
             <svg class="hidden lg:block" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="48" height="48" fill="#C3DE35" />
                 <path d="M31 36L19 24L31 12" stroke="#505D0C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -49,7 +49,7 @@
 
             <span class="sr-only">Previous</span>
         </button>
-        <button class="customNextBtn | absolute z-50 right-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
+        <button class="customNextBtn | absolute z-40 right-4 top-1/2 opacity-20 hover:opacity-50 transition-opacity ease-in-out delay-350">
             <svg class="hidden lg:block" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="48" height="48" transform="matrix(-1 0 0 1 48 0)" fill="#C3DE35" />
                 <path d="M17 36L29 24L17 12" stroke="#505D0C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -231,6 +231,6 @@
 
 
 <!-- footer -->
-<?php include __DIR__ . "/components/footer.php" ?>
+<?php include "./components/footer.php" ?>
 <!-- foot -->
-<?php include __DIR__ . "/includes/foot.php" ?>
+<?php include "./includes/foot.php" ?>

@@ -34,76 +34,10 @@
                             </defs>
                         </svg>
                     </button>
-                    <div id="user-notification-dropdown" class="z-10 overflow-hidden hidden absolute right-0 left-0 w-96 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
+                    <div id="user-notification-dropdown" class="z-50 overflow-hidden hidden absolute right-0 left-0 w-96 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700">
                         <h6 class="text-lg text-center p-2 bg-[#EBEBEB] text-theme-clr-secondary font-bold">Notification</h6>
-                        <ul class="notification-list | py-2 text-sm text-theme-clr-secondary" aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a href="https://codesandbox.io/p/sandbox/angry-bouman-pcpmms" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: About your order</span>
-                                    <span>1s</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:4000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>1d</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://localhost:3000/" class="flex items-center justify-between gap-2 px-4 py-4 hover:bg-gray-200">
-                                    <span>Update: You made an order</span>
-                                    <span>2w</span>
-                                </a>
-                            </li>
-                        </ul>
+                      
+                        <?php include ("notification-list.php");?>
                     </div>
                 </div>
 
@@ -182,5 +116,5 @@
 
 
 
-<?php include __DIR__ . "./register-form.php" ?>
-<?php include __DIR__ . "./login-form.php" ?>
+<?php include "components/register-form.php" ?>
+<?php include "components/login-form.php" ?>

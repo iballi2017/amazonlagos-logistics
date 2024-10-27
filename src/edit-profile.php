@@ -59,7 +59,7 @@
                     </button>
                 </div>
                 <div class="col-span-6 text-right">
-                    <button type="button" class="text-red-500 hover:text-red-600 py-2.5 text-sm text-center font-semibold">
+                    <button id="delete-account" type="button" class="text-red-500 hover:text-red-600 py-2.5 text-sm text-center font-semibold">
                         Delete Account
                     </button>
                 </div>
@@ -89,12 +89,9 @@
     </div>
 </dialog>
 
-<div>
-    <button id="updateDetails">Update details</button>
-</div>
 
 <script>
-    const updateButton = document.getElementById("updateDetails");
+    const updateButton = document.getElementById("delete-account");
     const cancelButton = document.getElementById("cancel");
     const dialog = document.getElementById("favDialog");
     dialog.returnValue = "favAnimal";
