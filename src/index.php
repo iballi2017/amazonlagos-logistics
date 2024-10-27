@@ -3,7 +3,7 @@
 <!-- top header -->
 <?php include __DIR__ . "/components/top-header.php" ?>
 
-<?php include __DIR__ . "/components/header.php" ?>
+<?php include __DIR__ . "/components/toolbar.php" ?>
 
 
 <section id="hero">
