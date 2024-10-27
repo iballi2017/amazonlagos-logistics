@@ -68,8 +68,54 @@
     </div>
 </div>
 
-<dialog id="dialog" open>
-    <form method="dialog">
-        <button type="submit">Close</button>
-    </form>
+<!-- pop-up dialog box, containing a form -->
+<dialog id="favDialog" class="w-full max-w-3xl bg-transparent">
+    <div class="p-6 bg-white border border-gray-200 rounded-lg shadow">
+        <form method="dialog">
+            <p>
+                <label for="favAnimal">Favorite animal:</label>
+                <select id="favAnimal" name="favAnimal">
+                    <option></option>
+                    <option>Brine shrimp</option>
+                    <option>Red panda</option>
+                    <option>Spider monkey</option>
+                </select>
+            </p>
+            <div>
+                <button id="cancel" type="reset">Cancel</button>
+                <button type="submit">Confirm</button>
+            </div>
+        </form>
+    </div>
 </dialog>
+
+<div>
+    <button id="updateDetails">Update details</button>
+</div>
+
+<script>
+    const updateButton = document.getElementById("updateDetails");
+    const cancelButton = document.getElementById("cancel");
+    const dialog = document.getElementById("favDialog");
+    dialog.returnValue = "favAnimal";
+
+    function openCheck(dialog) {
+        if (dialog.open) {
+            console.log("Dialog open");
+        } else {
+            console.log("Dialog closed");
+        }
+    }
+
+    // Update button opens a modal dialog
+    updateButton.addEventListener("click", () => {
+        dialog.showModal();
+        openCheck(dialog);
+    });
+
+    // Form cancel button closes the dialog box
+    cancelButton.addEventListener("click", () => {
+        dialog.close("animalNotChosen");
+        openCheck(dialog);
+    });
+</script>
