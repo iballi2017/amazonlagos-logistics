@@ -9,7 +9,7 @@
           </h2>
           <ul id="tabs-nav" class="space-y-2 font-medium px-3 py-4">
               <!-- <li>
-                                <a href="#" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                                <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                                     <svg class="w-5 h-5 text-theme-clr-secondary transition duration-75 group-hover:text-gray-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                                         <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
                                         <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
@@ -18,38 +18,38 @@
                                 </a>
                             </li> -->
               <li>
-                  <a href="?tab=shipping-address" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=shipping-address" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-map-marker-alt-solid.svg" alt="map marker icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Shipping Address</span>
                   </a>
               </li>
               <li>
-                  <a href="?tab=user-profile" class="tab-link | flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=user-profile" class="tab-link | flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-user-alt-solid.svg" alt="user icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Your Profile</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-shopping-bag-solid.svg" alt="shopping bag icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Orders</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-location-arrow-solid.svg" alt="location arrow icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Tracking status</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-bell-solid.svg" alt="notification bell icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Notifications</span>
                       <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">10</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center px-2 py-4 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-unlock-alt-solid.svg" alt="unlock icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Change Password</span>
                   </a>
