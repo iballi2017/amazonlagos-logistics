@@ -1422,6 +1422,10 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -2628,6 +2632,14 @@ input:checked + .toggle-bg {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
+  .lg\:w-14 {
+    width: 3.5rem;
   }
 
   .lg\:justify-center {
