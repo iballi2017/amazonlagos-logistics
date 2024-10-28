@@ -1,103 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
-@layer base {
-  :root {
-    --clr-primary: hsl(70, 72%, 54%);
-    --clr-secondary: hsl(70, 71%, 8%);
-    --clr-baseText: hsl(0, 0%, 56%);
-    --clr-light: hsl(0, 0%, 98%);
-    --clr-light-100: #f6f6f6;
-    --clr-light-700: hsl(69, 19%, 79%);
-    /* Theming */
-    --theme-clr-primary: 70deg 72% 54%;
-    --on-theme-clr-primary: 70deg 77% 21%;
-    --theme-clr-secondary: 70deg 71% 8%;
-    --on-theme-clr-secondary: 0deg 0% 100%;
-    --theme-clr-light: 0deg 0% 98%;
-    --on-theme-clr-light: 0 0% 56%;
-    --theme-clr-light-100: 0deg 0% 96%;
-    --on-theme-clr-light-100: var(--theme-clr-secondary);
-    --theme-clr-light-700: 69deg 19% 79%;
-  }
-}
-:root {
-  /* TYPOGRAPHY */
-  --ff-primary: "Nunito Sans", sans-serif;
-  --ff-secondary: "Nunito Sans", sans-serif;
-  --ff-body: var(--ff-primary);
-  --ff-heading: var(--ff-secondary);
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @forward "./breadcrumb";
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src\stylesheets\sass\_components\_index.scss 1:1  @use
+ *   src\stylesheets\sass\main.scss 3:1                root stylesheet */
 
-.ff-title {
-  font-family: var(--ff-secondary);
-}
-
-.ff-body {
-  font-family: var(--ff-body) !important;
-}
-
-nav #mobile-menu {
-  display: none;
-}
-nav #mobile-menu.show {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @forward \"./breadcrumb\";\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src\\stylesheets\\sass\\_components\\_index.scss 1:1  @use\a   src\\stylesheets\\sass\\main.scss 3:1                root stylesheet";
 }
-nav .link:not(:last-child):hover {
-  color: var(--clr-primary);
-}
-nav .link:last-child {
-  background: var(--clr-primary);
-  display: block;
-}
-nav [aria-current=page] {
-  color: var(--clr-primary);
-  position: relative;
-}
-nav [aria-current=page]::after {
-  content: "";
-  display: block;
-  height: 3px;
-  background-color: var(--clr-primary);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.hero-carousel .owl-dots {
-  display: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  width: 100%;
-  color: var(--clr-secondary);
-  margin: 0;
-  padding: 0;
-  font: 16px var(--ff-body);
-  position: relative;
-}
-html *:focus,
-body *:focus {
-  box-shadow: none;
-  outline: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-:root {
-  --max-width: 1200px;
-  --padding: 0.5rem;
-}
-
-.main-container {
-  width: min(var(--max-width), 100% - var(--padding) * 2);
-  margin-inline: auto;
-}
-
-/*# sourceMappingURL=main.css.map */
