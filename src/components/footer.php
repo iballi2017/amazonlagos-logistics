@@ -74,5 +74,5 @@
 
 
 <button class="fixed right-2 bottom-4 z-[20000000]">
-    <img src="./assets/icons/icon-chat.svg" alt="Chat with us" class="w-12 lg:w-20">
+    <img src="./assets/icons/icon-chat.svg" alt="Chat with us" class="w-10 lg:w-14">
 </button>

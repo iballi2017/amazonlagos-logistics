@@ -62,6 +62,7 @@
                     <button id="delete-account" type="button" class="text-red-500 hover:text-red-600 py-2.5 text-sm text-center font-semibold">
                         Delete Account
                     </button>
+                    <output></output>
                 </div>
             </div>
         </form>
@@ -89,7 +90,6 @@
         </form>
     </div>
 </dialog>
-<output></output>
 
 
 <script>

@@ -1422,6 +1422,10 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -1853,6 +1857,11 @@ input:checked + .toggle-bg {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-\[\#F13636\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 54 54 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -2628,6 +2637,10 @@ input:checked + .toggle-bg {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-14 {
+    width: 3.5rem;
   }
 
   .lg\:justify-center {
