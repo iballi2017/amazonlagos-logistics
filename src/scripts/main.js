@@ -4,10 +4,23 @@ import Toggle from "./Toggle.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const Init = () => {
+        handle_page_loader();
         handle_dialog();
         handle_toggle();
         handle_intersection_effects();
         activeSidenavLink();
+
+
+
+
+        function handle_page_loader() {
+            /**remove page loader */
+            const page_loader = document.querySelector(".page-loader");
+            page_loader?.classList.contains("show") ?
+                page_loader.classList.remove("show") :
+                null;
+        }
+
 
 
         const password_type_togglers = document.querySelectorAll(".password-type-toggler");
@@ -33,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const tab = urlParams.get('tab') || 'user-profile';
-        console.log({tab})
+        console.log({ tab })
 
         // Hide all tab contents and remove active classes from all tab links
         document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
