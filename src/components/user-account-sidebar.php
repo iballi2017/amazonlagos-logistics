@@ -30,26 +30,26 @@
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=orders" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-shopping-bag-solid.svg" alt="shopping bag icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Orders</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=tracking" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-location-arrow-solid.svg" alt="location arrow icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Tracking status</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=notification" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-bell-solid.svg" alt="notification bell icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Notifications</span>
                       <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">10</span>
                   </a>
               </li>
               <li>
-                  <a href="#" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
+                  <a href="?tab=change-password" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-unlock-alt-solid.svg" alt="unlock icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Change Password</span>
                   </a>

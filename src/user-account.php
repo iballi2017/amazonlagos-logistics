@@ -19,7 +19,7 @@
 <section>
     <div class="main-container">
 
-        <div class="grid grid-cols-12 gap-4 p-4">
+        <div class="grid grid-cols-12 gap-2 lg:gap-4 p-2 lg:p-4">
             <div class="col-span-12 lg:col-span-3">
             <?php include "./components/user-account-sidebar.php"; ?>
             </div>
@@ -34,6 +34,18 @@
                         </div>
                         <div id="tab-shipping-address" class="tab-content hidden">
                             <?php include "./shipping-address.php"; ?>
+                        </div>
+                        <div id="tab-orders" class="tab-content hidden">
+                            <?php include "./orders.php"; ?>
+                        </div>
+                        <div id="tab-tracking" class="tab-content hidden">
+                            <?php include "./tracking.php"; ?>
+                        </div>
+                        <div id="tab-notification" class="tab-content hidden">
+                            <?php include "./notification.php"; ?>
+                        </div>
+                        <div id="tab-change-password" class="tab-content hidden">
+                            <?php include "./change-password.php"; ?>
                         </div>
                     </div>
                 </div>
