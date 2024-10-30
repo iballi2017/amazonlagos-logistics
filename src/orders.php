@@ -42,13 +42,20 @@
                             Jumbo Pack: Buy and Ship
                         </td>
                         <td class="px-6 py-4">
-                            Pending
+
+
+                            <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                                Pending
+                            </span>
+
                         </td>
                         <td class="px-6 py-4">
                             On 15-03-2023
                         </td>
                         <td class="px-6 py-4">
-                            <a href="#">See details</a>
+                            <a href="#">
+                                <span class="text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">See details</span>
+                            </a>
                         </td>
                     </tr>
                     <tr class="bg-white dark:bg-gray-800">
@@ -59,7 +66,9 @@
                             Ship only
                         </td>
                         <td class="px-6 py-4">
-                            Completed
+                            <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                                Completed
+                            </span>
                         </td>
                         <td class="px-6 py-4">
                             On 15-03-2023
@@ -67,7 +76,7 @@
                         <td class="px-6 py-4">
 
                             <a href="#">
-                                <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">See details</span>
+                                <span class="text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">See details</span>
                             </a>
                         </td>
                     </tr>
@@ -79,13 +88,17 @@
                             Ship only
                         </td>
                         <td class="px-6 py-4">
-                            Cancelled
+                            <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                                Cancelled
+                            </span>
                         </td>
                         <td class="px-6 py-4">
                             On 15-03-2023
                         </td>
                         <td class="px-6 py-4">
-                            <a href="#">See details</a>
+                            <a href="#">
+                                <span class="text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">See details</span>
+                            </a>
                         </td>
                     </tr>
                 </tbody>
