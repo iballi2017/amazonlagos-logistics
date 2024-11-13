@@ -26,6 +26,7 @@ html {
   :root {
     --clr-primary: hsl(70, 72%, 54%);
     --clr-secondary: hsl(70, 71%, 8%);
+    --clr-secondary-200:hsl(70deg 77% 21%);
     --clr-baseText: hsl(0, 0%, 56%);
     --clr-light: hsl(0, 0%, 98%);
     --clr-light-100: #f6f6f6;
@@ -196,6 +197,45 @@ nav [aria-current=page]::after {
 }
 .page-loader.show {
   display: flex;
+}
+
+.tracking-status-list .status {
+  position: relative;
+}
+.tracking-status-list .status:not(.tracking-status-list .status:last-child) {
+  padding-bottom: 1em;
+}
+.tracking-status-list .status.passed::before {
+  content: "";
+  background-image: url(../assets/icons/icon-tick-primary.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -12px;
+  background-color: var(--clr-secondary-200);
+  border: 4px solid var(--clr-secondary-200);
+  color: #ffffff;
+  border-radius: 50%;
+}
+.tracking-status-list .status.current::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -12px;
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 2px #ff4500; /* Outer layer (outermost color) */
 }
 
 :root {

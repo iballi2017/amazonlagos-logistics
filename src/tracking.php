@@ -1,1 +1,1 @@
-<h1>Tracking</h1>
+<h2 class="p-4 text-lg font-bold bg-theme-clr-light-100 text-theme-clr-secondary">Tracking</h2>

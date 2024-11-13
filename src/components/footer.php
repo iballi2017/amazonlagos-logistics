@@ -1,3 +1,5 @@
+<div class="my-8"></div>
+
 <footer class="py-10 lg:py-14 bg-theme-clr-light">
     <div class="main-container">
         <div class="grid grid-cols-12 gap-4 lg:gap-8 text-theme-clr-secondary">

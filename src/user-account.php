@@ -18,37 +18,42 @@
 
 <section>
     <div class="main-container">
-
-        <div class="grid grid-cols-12 gap-2 lg:gap-4 p-2 lg:p-4">
-            <div class="col-span-12 lg:col-span-3">
-            <?php include "./components/user-account-sidebar.php"; ?>
-            </div>
-            <div class="col-span-12 lg:col-span-9">
-                <div class="">
-                    <div id="tab-contents" class="shadow rounded-lg overflow-hidden">
-                        <div id="tab-user-profile" class="tab-content hidden">
-                            <?php include "./user-profile.php"; ?>
-                        </div>
-                        <div id="tab-edit-profile" class="tab-content hidden">
-                            <?php include "./edit-profile.php"; ?>
-                        </div>
-                        <div id="tab-shipping-address" class="tab-content hidden">
-                            <?php include "./shipping-address.php"; ?>
-                        </div>
-                        <div id="tab-orders" class="tab-content hidden">
-                            <?php include "./orders.php"; ?>
-                        </div>
-                        <div id="tab-order-details" class="tab-content hidden">
-                            <?php include "./order-details.php"; ?>
-                        </div>
-                        <div id="tab-tracking" class="tab-content hidden">
-                            <?php include "./tracking.php"; ?>
-                        </div>
-                        <div id="tab-notification" class="tab-content hidden">
-                            <?php include "./notification.php"; ?>
-                        </div>
-                        <div id="tab-change-password" class="tab-content hidden">
-                            <?php include "./change-password.php"; ?>
+        <div class="lg:gap-4 p-2 lg:p-4">
+            <h2 class="text-xl text-theme-clr-secondary mb-4 font-bold">Hi Adeleke. O</h2>
+            <div class="grid grid-cols-12 gap-2">
+                <div class="col-span-12 lg:col-span-3">
+                    <?php include "./components/user-account-sidebar.php"; ?>
+                </div>
+                <div class="col-span-12 lg:col-span-9">
+                    <div class="">
+                        <div id="tab-contents" class="shadow rounded-lg overflow-hidden">
+                            <div id="tab-user-profile" class="tab-content hidden">
+                                <?php include "./user-profile.php"; ?>
+                            </div>
+                            <div id="tab-edit-profile" class="tab-content hidden">
+                                <?php include "./edit-profile.php"; ?>
+                            </div>
+                            <div id="tab-shipping-address" class="tab-content hidden">
+                                <?php include "./shipping-address.php"; ?>
+                            </div>
+                            <div id="tab-orders" class="tab-content hidden">
+                                <?php include "./orders.php"; ?>
+                            </div>
+                            <div id="tab-order-details" class="tab-content hidden">
+                                <?php include "./order-details.php"; ?>
+                            </div>
+                            <div id="tab-tracking" class="tab-content hidden">
+                                <?php include "./tracking.php"; ?>
+                            </div>
+                            <div id="tab-tracking-status" class="tab-content hidden">
+                                <?php include "./tracking-status.php"; ?>
+                            </div>
+                            <div id="tab-notification" class="tab-content hidden">
+                                <?php include "./notification.php"; ?>
+                            </div>
+                            <div id="tab-change-password" class="tab-content hidden">
+                                <?php include "./change-password.php"; ?>
+                            </div>
                         </div>
                     </div>
                 </div>

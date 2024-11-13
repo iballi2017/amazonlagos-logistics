@@ -38,7 +38,7 @@
               <li>
                   <a href="?tab=tracking" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-location-arrow-solid.svg" alt="location arrow icon" class="w-4">
-                      <span class="flex-1 ms-3 whitespace-nowrap">Tracking status</span>
+                      <span class="flex-1 ms-3 whitespace-nowrap">Tracking</span>
                   </a>
               </li>
               <li>
