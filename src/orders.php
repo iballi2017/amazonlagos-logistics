@@ -53,7 +53,7 @@
                             On 15-03-2023
                         </td>
                         <td class="px-6 py-4">
-                            <a href="#">
+                            <a href="?tab=order-details">
                                 <span class="text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">See details</span>
                             </a>
                         </td>

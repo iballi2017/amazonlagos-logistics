@@ -38,6 +38,9 @@
                         <div id="tab-orders" class="tab-content hidden">
                             <?php include "./orders.php"; ?>
                         </div>
+                        <div id="tab-order-details" class="tab-content hidden">
+                            <?php include "./order-details.php"; ?>
+                        </div>
                         <div id="tab-tracking" class="tab-content hidden">
                             <?php include "./tracking.php"; ?>
                         </div>

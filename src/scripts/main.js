@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const tab = urlParams.get('tab') || 'user-profile';
-        console.log({tab})
-
         // Hide all tab contents and remove active classes from all tab links
         document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
         document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('bg-theme-clr-primary'));
@@ -42,6 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
         // Show the active tab content and add active class to the corresponding tab link
         document.querySelector(`#tab-${tab}`)?.classList.remove('hidden');
         document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`)?.classList.add('bg-theme-clr-primary');
+
+        function multiple(query_tab, query) {
+            if (tab === query) {
+                const element = document.querySelector(`#tabs-nav a[href="?tab=${query_tab}"]`);
+                element?.classList.add('bg-theme-clr-primary')
+            }
+        }
+        multiple('user-profile', 'edit-profile');
     }
 
 
