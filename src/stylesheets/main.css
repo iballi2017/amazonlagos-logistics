@@ -181,6 +181,23 @@ nav [aria-current=page]::after {
   display: none;
 }
 
+.page-loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(237, 241, 248, 0.7);
+  z-index: 99999;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.page-loader.show {
+  display: flex;
+}
+
 :root {
   --max-width: 1200px;
   --padding: 0.5rem;
