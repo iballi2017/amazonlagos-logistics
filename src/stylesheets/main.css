@@ -235,7 +235,7 @@ nav [aria-current=page]::after {
   background-color: var(--clr-primary);
   border-radius: 50%;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px #ffffff, 0 0 0 2px #ff4500; /* Outer layer (outermost color) */
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 5px var(--clr-primary); /* Outer layer (outermost color) */
 }
 
 :root {
