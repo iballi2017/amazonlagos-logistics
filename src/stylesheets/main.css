@@ -199,6 +199,9 @@ nav [aria-current=page]::after {
   display: flex;
 }
 
+.tracking-status-list {
+  padding-left: 10px;
+}
 .tracking-status-list .status {
   position: relative;
 }
