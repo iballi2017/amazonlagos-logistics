@@ -14,7 +14,7 @@
                 <div class="p-4 lg:p-0 absolute bg-black/55 bg-blend-soft-light top-0 left-0 right-0 bottom-0 z-50 flex flex-col items-center justify-end lg:justify-center">
                     <h1 class="text-xl lg:text-4xl text-white font-bold lg:font-extrabold uppercase from-bottom" data-delay="800">Transform Your Shopping Experience </h1>
                     <p class="lg:text-xl text-white lg:font-bold lg:uppercase lg:mb-6 from-bottom" data-delay="1000">Seamless Access to Global E-Commerce Awaits You! </p>
-                    <a href="#"
+                    <a href="./quote-options.php"
                         class="rounded-md px-3 xl:px-6 py-3 inline-block text-xs font-extrabold uppercase bg-theme-clr-primary text-on-theme-clr-primary fade-in" data-delay="800">
                         Get a Quote</a>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="p-4 lg:p-0 absolute bg-black/55 bg-blend-soft-light top-0 left-0 right-0 bottom-0 z-50 flex flex-col items-center justify-end lg:justify-center">
                     <h1 class="text-xl lg:text-4xl text-white font-bold lg:font-extrabold uppercase from-bottom" data-delay="800">Transform Your Shopping Experience </h1>
                     <p class="lg:text-xl text-white lg:font-extrabold lg:uppercase lg:mb-6 from-bottom" data-delay="1000">Seamless Access to Global E-Commerce Awaits You! </p>
-                    <a href="#"
+                    <a href="./quote-options.php"
                         class="rounded-md px-3 xl:px-6 py-3 inline-block text-xs font-bold uppercase bg-theme-clr-primary text-on-theme-clr-primary fade-in" data-delay="800">
                         Get a Quote</a>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="p-4 lg:p-0 absolute bg-black/55 bg-blend-soft-light top-0 left-0 right-0 bottom-0 z-50 flex flex-col items-center justify-end lg:justify-center">
                     <h1 class="text-xl lg:text-4xl text-white font-bold lg:font-extrabold uppercase from-bottom" data-delay="800">Transform Your Shopping Experience </h1>
                     <p class="lg:text-xl text-white lg:font-extrabold lg:uppercase lg:mb-6 from-bottom" data-delay="1000">Seamless Access to Global E-Commerce Awaits You! </p>
-                    <a href="#"
+                    <a href="./quote-options.php"
                         class="rounded-md px-3 xl:px-6 py-3 inline-block text-xs font-bold uppercase bg-theme-clr-primary text-on-theme-clr-primary fade-in" data-delay="800">
                         Get a Quote</a>
                 </div>
@@ -182,7 +182,7 @@
                             <h6 class="text-theme-clr-secondary font-bold mb-2">Jombo pack: Buy & Ship</h6>
                             <p class="text-on-theme-clr-light mb-2">This segment allows customers to shop from
                                 international platforms using Naira, eliminating the need for a dollar card.</p>
-                            <a href="#"
+                            <a href="./jumbo-pack-buy-and-ship-order-summary.php"
                                 class="rounded-md px-3 xl:px-6 py-3 inline-block text-xs font-bold uppercase bg-theme-clr-primary text-on-theme-clr-primary">Get
                                 a Quote</a>
 
@@ -199,7 +199,7 @@
                             <p class="text-on-theme-clr-light mb-2">This segment focuses on logistics, enabling
                                 customers to ship their purchases to a U.S. warehouse, from where AmazonLagos will
                                 handle the shipping to their Nigerian addresses.</p>
-                            <a href="#"
+                            <a href="./ship-only-order-summary.php"
                                 class="rounded-md px-3 xl:px-6 py-3 inline-block text-xs font-bold uppercase bg-theme-clr-primary text-on-theme-clr-primary">Get
                                 a Quote</a>
 
