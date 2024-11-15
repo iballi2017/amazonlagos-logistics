@@ -45,7 +45,7 @@
                   <a href="?tab=notification" class="flex items-center p-2 text-theme-clr-secondary rounded-lg dark:text-white hover:bg-theme-clr-primary group">
                       <img src="./assets/icons/icon-bell-solid.svg" alt="notification bell icon" class="w-4">
                       <span class="flex-1 ms-3 whitespace-nowrap">Notifications</span>
-                      <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">10</span>
+                      <!-- <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">10</span> -->
                   </a>
               </li>
               <li>

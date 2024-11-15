@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         multiple('user-profile', 'edit-profile');
         multiple('orders', 'order-details');
-        multiple('orders', 'tracking-status');
+        multiple('tracking', 'tracking-status');
     }
 
 

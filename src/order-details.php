@@ -39,9 +39,9 @@
 
                     <p class="text-sm mt-2">The return period ended on 8-04-2023</p>
                 </div>
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex flex-col gap-y-4 lg:gap-y-6 items-center">
                     <p>
-                        <a href="#" class="text-red-400">Cancelled</a>
+                        <button class="inline-block text-red-400 border border-red-400 bg-white focus:ring-4 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-2 text-center font-semibold">Cancel</button>
                     </p>
 
                     <p>
