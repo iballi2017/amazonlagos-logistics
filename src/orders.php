@@ -35,7 +35,7 @@
 
                 <tbody>
                     <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="max-w-[10px] px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" class="max-w-[10px] px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             1
                         </th>
                         <td class="px-6 py-4">
@@ -44,12 +44,12 @@
                         <td class="px-6 py-4">
 
 
-                            <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                            <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2 py-1 rounded">
                                 Pending
                             </span>
 
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 text-xs">
                             On 15-03-2023
                         </td>
                         <td class="px-6 py-4">
@@ -59,14 +59,14 @@
                         </td>
                     </tr>
                     <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             2
                         </th>
                         <td class="px-6 py-4">
                             Ship only
                         </td>
                         <td class="px-6 py-4">
-                            <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                            <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2 py-1 rounded">
                                 Completed
                             </span>
                         </td>
@@ -81,18 +81,18 @@
                         </td>
                     </tr>
                     <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             3
                         </th>
                         <td class="px-6 py-4">
                             Ship only
                         </td>
                         <td class="px-6 py-4">
-                            <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-3 py-1.5 rounded">
+                            <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2 py-1 rounded">
                                 Cancelled
                             </span>
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 text-xs">
                             On 15-03-2023
                         </td>
                         <td class="px-6 py-4">

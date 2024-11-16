@@ -195,15 +195,15 @@
                                 </div>
                                 <div class="col-span-12 lg:col-span-3">
                                     <label for="conversion_from_dollar_to_naira" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Conversion from Dollar to Naira</label>
-                                    <input type="tel" id="conversion_from_dollar_to_naira" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
+                                    <input type="tel" id="conversion_from_dollar_to_naira" class="bg-gray-100 border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
                                 </div>
                             </div>
-                            <button class="w-6 lg:w-12 flex items-center justify-end">
+                            <button type="button" class="text-[#E8E8E8] hover:text-red-500 focus:text-red-500 w-4 lg:w-12 flex items-center justify-end">
                                 <span class="sr-only">
                                     Delete
                                 </span>
                                 <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="#E8E8E8" />
+                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="currentColor" />
                                 </svg>
 
                             </button>
@@ -226,15 +226,15 @@
                                 </div>
                                 <div class="col-span-12 lg:col-span-3">
                                     <label for="conversion_from_dollar_to_naira" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Conversion from Dollar to Naira</label>
-                                    <input type="tel" id="conversion_from_dollar_to_naira" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
+                                    <input type="tel" id="conversion_from_dollar_to_naira" class="bg-gray-100 border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
                                 </div>
                             </div>
-                            <button class="w-6 lg:w-12 flex items-center justify-end">
+                            <button type="button" class="text-[#E8E8E8] hover:text-red-500 focus:text-red-500 w-4 lg:w-12 flex items-center justify-end">
                                 <span class="sr-only">
                                     Delete
                                 </span>
                                 <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="#E8E8E8" />
+                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="currentColor" />
                                 </svg>
 
                             </button>
@@ -246,16 +246,20 @@
 
 
             <div class="col-span-12">
-                <button type="submit" class="bg-theme-clr-primary focus:ring-2 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">Proceed to Payment #40,000</button>
+                <button type="submit" class="bg-theme-clr-primary/80 hover:bg-theme-clr-primary focus:ring-2 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">Proceed to Payment #40,000</button>
             </div>
 
         </form>
 
     </div>
 
+    <button type="button" class="back-btn | font-bold text-lg text-theme-clr-primary my-6">Go back</button>
+
 
 </div>
 
 
+<!-- footer -->
+<?php include "./components/footer.php" ?>
 <!-- foot -->
 <?php include "./includes/foot.php" ?>

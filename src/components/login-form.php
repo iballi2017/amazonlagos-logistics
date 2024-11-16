@@ -82,7 +82,7 @@
 
 
                         <div class="col-span-12">
-                            <button type="submit" class="bg-theme-clr-primary focus:ring-4 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">
+                            <button type="submit" class="bg-theme-clr-primary/80 hover:bg-theme-clr-primary focus:ring-2 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">
                                 Login
                             </button>
                         </div>

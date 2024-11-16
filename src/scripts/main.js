@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         handle_toggle();
         handle_intersection_effects();
         activeSidenavLink();
+        handle_back_history();
 
 
 
@@ -77,6 +78,17 @@ document.addEventListener("DOMContentLoaded", () => {
             const target = document.querySelector(`#${attr}`);
 
             new Toggle(element, target, 'click', 'hidden').toggle();
+        }
+    }
+
+
+    const handle_back_history = () => {
+        const backBtns = document.querySelectorAll('.back-btn');
+        for (let i = 0; i < backBtns.length; i++) {
+            const element = backBtns[i];
+            element.addEventListener('click', () => {
+                window.history.back();
+            })
         }
     }
 
