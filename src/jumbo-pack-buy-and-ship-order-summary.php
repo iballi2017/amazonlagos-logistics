@@ -11,9 +11,7 @@
     Note: Additional charges may apply if the actual weight exceeds the estimated weight."
 </p>
 
-<div class="my-4"></div>
-
-<div class="main-container">
+<div class="main-container my-4">
     <!-- <h2 class="p-4 text-lg font-bold bg-theme-clr-light-800 text-theme-clr-secondary">ORDER SUMMARY</h2> -->
     <div class="relative overflow-x-auto">
         <table class="w-full text-left rtl:text-right text-theme-clr-secondary">
@@ -105,84 +103,159 @@
 
     <div class="my-8"></div>
 
-    <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow">
+    <div class="block p-6 bg-white border border-gray-200 rounded-lg shadow-sm text-theme-clr-secondary">
+        <h2 class="text-2xl text-center font-bold my-6">Jumbo Pack: Buy & Sell</h2>
 
-
+        <hr class="mb-6">
         <form action="">
-            <div class="grid grid-cols-12 gap-2 lg:gap-4">
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="first_name" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">First name</label>
-                    <input type="text" id="first_name" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="last_name" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Last name</label>
-                    <input type="text" id="last_name" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="email" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Email address</label>
-                    <input type="email" id="email" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="phone" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Phone</label>
-                    <input type="tel" id="phone" class="phone | border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="country" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Country</label>
-                    <select id="country" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3">
-                        <option>United States</option>
-                        <option>Canada</option>
-                        <option>France</option>
-                        <option>Germany</option>
-                    </select>
-                </div>
 
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="state" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">State</label>
-                    <select id="state" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3">
-                        <option value="abj">Abuja</option>
-                        <option value="ada">Adamawa</option>
-                    </select>
-                </div>
+            <fieldset class="mb-6">
+                <legend class="text-lg font-semibold mb-4">Recipient Information</legend>
 
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="lga" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">L.G.A</label>
-                    <input type="text" id="lga" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="street" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Street</label>
-                    <input type="text" id="street" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="password" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Password</label>
-                    <div class="relative">
-                        <button type="button" class="password-type-toggler | absolute right-2 top-2 opacity-40">
-                            <img src="./assets/icons/icon-eye.svg" alt="show">
-                            <span class="sr-only">Toggle</span>
-                            <img src="./assets/icons/icon-eye-off.svg" alt="hide" class="hidden">
-                        </button>
-                        <input type="password" id="password" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+
+                <div class="grid grid-cols-12 gap-2 lg:gap-4">
+                    <div class="col-span-12 lg:col-span-4">
+                        <label for="full_name" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Full Name</label>
+                        <input type="text" id="full_name" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
                     </div>
-                </div>
-                <div class="col-span-12 lg:col-span-6">
-                    <label for="confirm_password" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Confirm password</label>
-                    <div class="relative">
-                        <button type="button" class="password-type-toggler | absolute right-2 top-2 opacity-40">
-                            <img src="./assets/icons/icon-eye.svg" alt="show">
-                            <span class="sr-only">Toggle</span>
-                            <img src="./assets/icons/icon-eye-off.svg" alt="hide" class="hidden">
-                        </button>
-                        <input type="password" id="confirm_password" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                    <div class="col-span-12 lg:col-span-4">
+                        <label for="email" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Email Address</label>
+                        <input type="text" id="email" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                    </div>
+                    <div class="col-span-12 lg:col-span-4">
+                        <label for="phone" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Phone Number</label>
+                        <input type="tel" id="phone" class="phone | border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
                     </div>
                 </div>
 
-                <div class="col-span-12">
-                    <button type="submit" class="bg-theme-clr-primary focus:ring-2 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">Register</button>
-                    <small class="block text-center mt-4">By signing up you accept our <a href="#" class="text-theme-clr-secondary font-semibold">terms and conditions </a> & <a href="#" class="text-theme-clr-secondary font-semibold">privacy policy</a></small>
+            </fieldset>
+
+            <fieldset class="mb-6">
+                <legend class="text-lg font-semibold mb-4">Shipping Address</legend>
+
+
+                <div class="grid grid-cols-12 gap-2 lg:gap-4">
+                    <div class="col-span-12 lg:col-span-2">
+                        <label for="country" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Country</label>
+                        <select id="country" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3">
+                            <option>United States</option>
+                            <option>Canada</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                        </select>
+                    </div>
+                    <div class="col-span-12 lg:col-span-2">
+                        <label for="state" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">State</label>
+                        <select id="state" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3">
+                            <option value="abj">Abuja</option>
+                            <option value="ada">Adamawa</option>
+                        </select>
+                    </div>
+                    <div class="col-span-12 lg:col-span-2">
+                        <label for="lga" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">L.G.A</label>
+                        <input type="text" id="lga" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                    </div>
+
+                    <div class="col-span-12 lg:col-span-6">
+                        <label for="street" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Street</label>
+                        <input type="text" id="street" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                    </div>
                 </div>
+
+            </fieldset>
+
+            <div class="p-4 border rounded-lg mb-6">
+                <fieldset>
+                    <div class="flex items-center justify-between">
+                        <legend class="text-lg font-semibold mb-4">Product Information</legend>
+                        <!-- <button>Add</button> -->
+                        <button type="button" class="py-2.5 px-8 text-sm font-semibold text-theme-clr-secondary-200 focus:outline-none bg-theme-clr-primary/10 rounded-lg border border-theme-clr-secondary-200 hover:bg-gray-100 hover:text-theme-clr-secondary focus:z-10 focus:ring-4 focus:ring-theme-clr-secondary">Add</button>
+                    </div>
+                    <div class="flex flex-col items-center justify-center p-2 my-6 text-sm text-red-800 bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+                        <span class="sr-only">Info</span>
+                        <div>
+                            NB: rate is 1$ - #1770
+                        </div>
+                    </div>
+
+                    <ul class="flex flex-col gap-y-4">
+                        <li class="border p-2 lg:p-4 rounded-lg flex items-end justify-between gap-4">
+                            <div class="grid grid-cols-12 gap-2 lg:gap-4 w-full">
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="product_link" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Product Link</label>
+                                    <input type="text" id="product_link" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="estimated_weight" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Estimated Weight <small>(Kg or Ibs)</small></label>
+                                    <input type="text" id="estimated_weight" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="product_price" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Product Price in Dollars</label>
+                                    <input type="text" id="product_price" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="conversion_from_dollar_to_naira" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Conversion from Dollar to Naira</label>
+                                    <input type="tel" id="conversion_from_dollar_to_naira" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
+                                </div>
+                            </div>
+                            <button class="w-6 lg:w-12 flex items-center justify-end">
+                                <span class="sr-only">
+                                    Delete
+                                </span>
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="#E8E8E8" />
+                                </svg>
+
+                            </button>
+                        </li>
+                        <!--  -->
+
+                        <li class="border p-2 lg:p-4 rounded-lg flex items-end justify-between gap-4">
+                            <div class="grid grid-cols-12 gap-2 lg:gap-4 w-full">
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="product_link" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Product Link</label>
+                                    <input type="text" id="product_link" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="estimated_weight" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Estimated Weight <small>(Kg or Ibs)</small></label>
+                                    <input type="text" id="estimated_weight" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="product_price" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Product Price in Dollars</label>
+                                    <input type="text" id="product_price" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required />
+                                </div>
+                                <div class="col-span-12 lg:col-span-3">
+                                    <label for="conversion_from_dollar_to_naira" class="block mb-2 font-medium text-theme-clr-secondary cursor-pointer">Conversion from Dollar to Naira</label>
+                                    <input type="tel" id="conversion_from_dollar_to_naira" class="border border-theme-clr-light-800 text-theme-clr-secondary text-sm rounded-lg focus:ring-theme-clr-primary focus:border-theme-clr-primary block w-full p-2.5 py-3" required readonly />
+                                </div>
+                            </div>
+                            <button class="w-6 lg:w-12 flex items-center justify-end">
+                                <span class="sr-only">
+                                    Delete
+                                </span>
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 18C2.45 18 1.97933 17.8043 1.588 17.413C1.19667 17.0217 1.00067 16.5507 1 16V3H0V1H5V0H11V1H16V3H15V16C15 16.55 14.8043 17.021 14.413 17.413C14.0217 17.805 13.5507 18.0007 13 18H3ZM13 3H3V16H13V3ZM5 14H7V5H5V14ZM9 14H11V5H9V14Z" fill="#E8E8E8" />
+                                </svg>
+
+                            </button>
+                        </li>
+                    </ul>
+                </fieldset>
             </div>
+
+
+
+            <div class="col-span-12">
+                <button type="submit" class="bg-theme-clr-primary focus:ring-2 focus:outline-none focus:ring-theme-clr-primary rounded-lg w-full px-5 py-3 text-center font-semibold">Proceed to Payment #40,000</button>
+            </div>
+
         </form>
 
     </div>
 
 
 </div>
+
+
+<!-- foot -->
+<?php include "./includes/foot.php" ?>
