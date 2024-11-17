@@ -243,7 +243,7 @@ nav [aria-current=page]::after {
 }
 
 .main-container {
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
@@ -295,7 +295,20 @@ nav [aria-current=page]::after {
   height: 2px;
   width: 2px;
   display: block;
-  color: #ef4444;
+  color: rgb(239, 68, 68);
+}
+
+.after-angle-bracket-primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.after-angle-bracket-primary::after {
+  content: url(../assets/icons/icon-angle-right-primary.svg);
+  display: block;
+  color: red;
+  height: 3px;
+  width: 3px;
 }
 
 /*# sourceMappingURL=main.css.map */
