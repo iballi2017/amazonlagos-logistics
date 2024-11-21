@@ -166,10 +166,10 @@
 
             <div class="p-4 border rounded-lg mb-6">
                 <fieldset>
-                    <div class="flex items-center justify-between">
-                        <legend class="text-lg font-semibold mb-4">Product Information</legend>
+                    <div class="flex items-center justify-between mb-4">
+                        <legend class="text-lg font-semibold">Product Information</legend>
                         <!-- <button>Add</button> -->
-                        <button type="button" class="py-2 px-1.5 lg:py-2.5 lg:px-8 text-sm font-semibold text-theme-clr-secondary-200 focus:outline-none bg-theme-clr-primary/10 rounded-lg border border-theme-clr-secondary-200 hover:bg-gray-100 hover:text-theme-clr-secondary focus:z-10 focus:ring-4 focus:ring-theme-clr-secondary">
+                        <button type="button" class="py-1.5 px-3 lg:py-2.5 lg:px-8 text-sm font-semibold text-theme-clr-secondary-200 focus:outline-none bg-theme-clr-primary/10 rounded-lg border border-theme-clr-secondary-200 hover:bg-gray-100 hover:text-theme-clr-secondary focus:z-10 focus:ring-4 focus:ring-theme-clr-secondary">
                             <span class="hidden lg:block">Add</span>
                             <span class="text-xl font-extrabold lg:hidden">+</span>
                         </button>

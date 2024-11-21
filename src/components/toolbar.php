@@ -47,11 +47,11 @@
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="./" class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase"
                             aria-current="page">Home</a>
-                        <a href="#"
+                        <a href="./about-us.php"
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">About Us</a>
-                        <a href="#"
+                        <a href="./services.php"
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Services</a>
-                        <a href="#"
+                        <a href="./contact-us.php"
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Contact Us</a>
                         <a href="quote-options.php"
                             class="link | rounded-md px-3 xl:px-6 py-3 block h-full text-xs font-bold uppercase text-on-theme-clr-primary">Get a Quote</a>
