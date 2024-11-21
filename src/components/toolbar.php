@@ -77,3 +77,6 @@
     </nav>
 
 </header>
+<?php
+$message="Use SHIPPING ADDRESS: Country: USA, State: Lagos, City: Illupeju, Street: 30, shonibanire str, Illupeju, Lagos";
+include"./components/info-banner.php";?>

@@ -7,9 +7,9 @@
         <img src="./assets/images/brand-logo-black.png" alt="" class="w-40 mx-auto">
     </h1>
 </header>
-<p class="p-2 py-4 text-white text-center font-bold bg-[#F13636]">
-    Note: Additional charges may apply if the actual weight exceeds the estimated weight."
-</p>
+<?php
+$message="Note: Additional charges may apply if the actual weight exceeds the estimated weight.";
+include"./components/info-banner.php";?>
 
 <div class="main-container my-4">
     <!-- <h2 class="p-4 text-lg font-bold bg-theme-clr-light-800 text-theme-clr-secondary">ORDER SUMMARY</h2> -->
@@ -174,6 +174,7 @@
                             <span class="text-xl font-extrabold lg:hidden">+</span>
                         </button>
                     </div>
+
                     <div class="flex flex-col items-center justify-center p-2 my-6 text-sm text-red-800 bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
                         <span class="sr-only">Info</span>
                         <div>
