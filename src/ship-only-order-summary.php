@@ -169,7 +169,10 @@
                     <div class="flex items-center justify-between">
                         <legend class="text-lg font-semibold mb-4">Product Information</legend>
                         <!-- <button>Add</button> -->
-                        <button type="button" class="py-2.5 px-8 text-sm font-semibold text-theme-clr-secondary-200 focus:outline-none bg-theme-clr-primary/10 rounded-lg border border-theme-clr-secondary-200 hover:bg-gray-100 hover:text-theme-clr-secondary focus:z-10 focus:ring-4 focus:ring-theme-clr-secondary">Add</button>
+                        <button type="button" class="py-2 px-1.5 lg:py-2.5 lg:px-8 text-sm font-semibold text-theme-clr-secondary-200 focus:outline-none bg-theme-clr-primary/10 rounded-lg border border-theme-clr-secondary-200 hover:bg-gray-100 hover:text-theme-clr-secondary focus:z-10 focus:ring-4 focus:ring-theme-clr-secondary">
+                            <span class="hidden lg:block">Add</span>
+                            <span class="text-xl font-extrabold lg:hidden">+</span>
+                        </button>
                     </div>
                     <div class="flex flex-col items-center justify-center p-2 my-6 text-sm text-red-800 bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
                         <span class="sr-only">Info</span>
