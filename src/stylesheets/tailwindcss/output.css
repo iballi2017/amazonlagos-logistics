@@ -1368,6 +1368,14 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .max-h-full {
   max-height: 100%;
 }
@@ -1402,6 +1410,10 @@ input:checked + .toggle-bg {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-2\.5 {
@@ -1460,12 +1472,16 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
+.w-36 {
+  width: 9rem;
 }
 
-.max-w-8 {
-  max-width: 2rem;
+.max-w-16 {
+  max-width: 4rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .max-w-\[10px\] {
@@ -1482,6 +1498,10 @@ input:checked + .toggle-bg {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-1 {
@@ -1865,8 +1885,18 @@ input:checked + .toggle-bg {
   background-color: rgb(241 54 54 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-black\/55 {
   background-color: rgb(0 0 0 / 0.55);
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(164 202 254 / var(--tw-bg-opacity));
 }
 
 .bg-blue-50 {
@@ -1931,6 +1961,11 @@ input:checked + .toggle-bg {
 .bg-red-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 82 82 / var(--tw-bg-opacity));
 }
 
 .bg-theme-clr-light {
@@ -2238,6 +2273,11 @@ input:checked + .toggle-bg {
   color: rgb(81 142 248 / var(--tw-text-opacity));
 }
 
+.text-\[\#5B5B5B\] {
+  --tw-text-opacity: 1;
+  color: rgb(91 91 91 / var(--tw-text-opacity));
+}
+
 .text-\[\#8DA609\] {
   --tw-text-opacity: 1;
   color: rgb(141 166 9 / var(--tw-text-opacity));
@@ -2246,6 +2286,11 @@ input:checked + .toggle-bg {
 .text-\[\#E8E8E8\] {
   --tw-text-opacity: 1;
   color: rgb(232 232 232 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-600 {
@@ -2542,6 +2587,10 @@ input:checked + .toggle-bg {
 .checked\:bg-theme-clr-primary:checked {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--theme-clr-primary) / var(--tw-bg-opacity));
+}
+
+.hover\:rounded-md:hover {
+  border-radius: 0.375rem;
 }
 
 .hover\:border-gray-300:hover {
@@ -3030,6 +3079,10 @@ input:checked + .toggle-bg {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:max-w-20 {
+    max-width: 5rem;
   }
 
   .lg\:flex-row {
