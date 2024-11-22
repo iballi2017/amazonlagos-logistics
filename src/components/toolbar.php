@@ -53,7 +53,7 @@
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Services</a>
                         <a href="./contact-us.php"
                             class="link | rounded-md px-3 xl:px-6 py-8 block h-full text-xs font-medium uppercase">Contact Us</a>
-                        <a href="quote-options.php"
+                        <a href="./quote-options.php"
                             class="link | rounded-md px-3 xl:px-6 py-3 block h-full text-xs font-bold uppercase text-on-theme-clr-primary">Get a Quote</a>
                     </div>
                 </div>
@@ -64,14 +64,16 @@
         <div class="hidden" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
-                    aria-current="page">Dashboard</a>
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
+                <a href="./" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+                    aria-current="page">Home</a>
+                <a href="./about-us.php"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
+                <a href="./services.php"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Services</a>
+                <a href="./contact-us.php"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
+                <a href="./quote-options.php"
+                    class="block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700 hover:text-white text-on-theme-clr-primary bg-theme-clr-primary text-center">Get a Quote</a>
             </div>
         </div>
     </nav>
