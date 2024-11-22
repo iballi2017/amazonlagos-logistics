@@ -44,7 +44,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function activeSidenavLink() {
-        const tabNavigation = new TabNavigation('bg-theme-clr-primary', 'user-profile')
+        const defaultPage = 'user-profile';
+        const activeClass = 'bg-theme-clr-primary';
+        const childrenPages = [
+            {
+                wrapperPage: 'user-profile',
+                page: 'edit-profile'
+            }, {
+                wrapperPage: 'orders',
+                page: 'order-details'
+            }, {
+                wrapperPage: 'tracking',
+                page: 'tracking-status'
+            }]
+        const tabNavigation = new TabNavigation(activeClass, defaultPage, childrenPages)
         tabNavigation.activeSidenavLink();
 
         // // Get URL parameters
