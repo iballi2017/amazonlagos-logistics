@@ -42,9 +42,9 @@
                     Quick links
                 </h6>
                 <ul class="leading-8">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="./about-us.php">About Us</a></li>
+                    <li><a href="./services.php">Services</a></li>
+                    <li><a href="./faq.php">FAQ</a></li>
                 </ul>
             </div>
             <div class="col-span-12 md:col-span-6 lg:col-span-3">
@@ -52,8 +52,8 @@
                     Legal
                 </h6>
                 <ul class="leading-8">
-                    <li><a href="#">Piracy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="./piracy.php">Piracy</a></li>
+                    <li><a href="./terms-and-conditions.php">Terms & Conditions</a></li>
                 </ul>
             </div>
             <div class="col-span-12 md:col-span-6 lg:col-span-3">

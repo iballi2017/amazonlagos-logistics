@@ -1,5 +1,6 @@
 import { handle_intersection_effects } from "./intersection-effects.js";
 import { handle_dialog } from "./modal-dialog.js";
+import TabNavigation from "./tab-navigation.js";
 import Toggle from "./Toggle.js";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -44,27 +45,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function activeSidenavLink() {
 
-        // Get URL parameters
-        const urlParams = new URLSearchParams(window.location.search);
-        const tab = urlParams.get('tab') || 'user-profile';
 
-        // Hide all tab contents and remove active classes from all tab links
-        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-        document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('bg-theme-clr-primary'));
+        const tabNavigation = new TabNavigation('bg-theme-clr-primary', 'user-profile')
+        tabNavigation.activeSidenavLink();
 
-        // Show the active tab content and add active class to the corresponding tab link
-        document.querySelector(`#tab-${tab}`)?.classList.remove('hidden');
-        document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`)?.classList.add('bg-theme-clr-primary');
+        // // Get URL parameters
+        // const urlParams = new URLSearchParams(window.location.search);
+        // const tab = urlParams.get('tab') || 'user-profile';
 
-        function multiple(query_tab, query) {
-            if (tab === query) {
-                const element = document.querySelector(`#tabs-nav a[href="?tab=${query_tab}"]`);
-                element?.classList.add('bg-theme-clr-primary')
-            }
-        }
-        multiple('user-profile', 'edit-profile');
-        multiple('orders', 'order-details');
-        multiple('tracking', 'tracking-status');
+        // // Hide all tab contents and remove active classes from all tab links
+        // document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        // document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('bg-theme-clr-primary'));
+
+        // // Show the active tab content and add active class to the corresponding tab link
+        // document.querySelector(`#tab-${tab}`)?.classList.remove('hidden');
+        // document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`)?.classList.add('bg-theme-clr-primary');
+
+        // function multiple(query_tab, query) {
+        //     if (tab === query) {
+        //         const element = document.querySelector(`#tabs-nav a[href="?tab=${query_tab}"]`);
+        //         element?.classList.add('bg-theme-clr-primary')
+        //     }
+        // }
+        // multiple('user-profile', 'edit-profile');
+        // multiple('orders', 'order-details');
+        // multiple('tracking', 'tracking-status');
     }
 
 

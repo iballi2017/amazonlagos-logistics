@@ -1,0 +1,39 @@
+.info-tabs {
+    .nav-list {
+        display: flex;
+        align-items: stretch;
+        margin: 0 auto;
+
+        li {
+            flex-basis: calc(100%/3);
+            padding: 10px 0;
+
+            a {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                position: relative;
+                font-weight: 600;
+
+                &[aria-current="document"] {
+                    color: var(--clr-primary);
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        height: 3px;
+                        background-color: var(--clr-primary);
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                        right: 0;
+                    }
+
+                }
+            }
+        }
+    }
+}

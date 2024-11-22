@@ -237,13 +237,46 @@ nav [aria-current=page]::after {
   left: -12px;
 }
 
+.info-tabs .nav-list {
+  display: flex;
+  align-items: stretch;
+  margin: 0 auto;
+}
+.info-tabs .nav-list li {
+  flex-basis: 33.3333333333%;
+  padding: 10px 0;
+}
+.info-tabs .nav-list li a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  font-weight: 600;
+}
+.info-tabs .nav-list li a[aria-current=document] {
+  color: var(--clr-primary);
+}
+.info-tabs .nav-list li a[aria-current=document]::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: var(--clr-primary);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+
 :root {
   --max-width: 1200px;
   --padding: 0.5rem;
 }
 
 .main-container {
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  width: min(var(--max-width), 100% - var(--padding) * 2);
   margin-inline: auto;
 }
 
@@ -295,7 +328,7 @@ nav [aria-current=page]::after {
   height: 2px;
   width: 2px;
   display: block;
-  color: #ef4444;
+  color: rgb(239, 68, 68);
 }
 
 .after-angle-bracket-primary {

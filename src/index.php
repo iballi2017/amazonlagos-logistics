@@ -83,7 +83,7 @@
 
 </section>
 
-<section class="py-4 lg:py-20">
+<section class="py-10 lg:py-20">
     <div class="main-container grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-6">
             <h2 class="inline-block bg-theme-clr-secondary text-on-theme-clr-secondary rounded-r-full rounded-l-full
@@ -103,7 +103,7 @@
     </div>
 </section>
 
-<section class="bg-theme-clr-light-100 py-4 lg:py-20">
+<section class="bg-theme-clr-light-100 py-10 lg:py-20">
     <div class="main-container text-center">
         <h2 class="inline-block bg-theme-clr-secondary text-on-theme-clr-secondary rounded-r-full rounded-l-full
             font-semibold px-4 py-1.5 uppercase mb-4 text-sm lg:text-base fade-in" data-delay="600">We are AmazonLagos</h2>
