@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
         handle_dialog();
         handle_toggle();
         handle_intersection_effects();
-        activeSidenavLink();
+        userAccountSidebarTabs();
+        termsAndConditionsTabs();
         handle_back_history();
 
 
@@ -33,8 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 password_input.type === "password" ?
                     (password_input.type = "text", toggler.firstElementChild.classList.add('hidden'), toggler.lastElementChild.classList.remove('hidden')) :
                     (password_input.type = "password", toggler.firstElementChild.classList.remove('hidden'), toggler.lastElementChild.classList.add('hidden'));
-                console.log({ firstChild: toggler.firstElementChild })
-                console.log({ lastChild: toggler.lastElementChild })
             });
         }
 
@@ -42,10 +41,29 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
+    function termsAndConditionsTabs() {
+        const attribute = {
+            qualifiedName: 'aria-current',
+            value: 'document'
+        }
+        const childrenPages = []
+        const wrapper = document.querySelector('#terms-and-conditions-wrapper');
+        const activeClass = null;
 
-    function activeSidenavLink() {
-        const defaultPage = 'user-profile';
+        const options = {
+            htmlAttribute: attribute,
+            defaultPage: 'terms-and-conditons',
+            childrenPages: childrenPages,
+        }
+        const tabNavigation = new TabNavigation(wrapper, activeClass, options)
+        tabNavigation.activeSidenavLink();
+    }
+
+
+
+    function userAccountSidebarTabs() {
         const activeClass = 'bg-theme-clr-primary';
+        const wrapper = document.querySelector('#user-account-wrapper');
         const childrenPages = [
             {
                 wrapperPage: 'user-profile',
@@ -56,31 +74,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }, {
                 wrapperPage: 'tracking',
                 page: 'tracking-status'
-            }]
-        const tabNavigation = new TabNavigation(activeClass, defaultPage, childrenPages)
+            },
+        ];
+
+        const options = {
+            htmlAttribute: null,
+            defaultPage: 'user-profile',
+            childrenPages: childrenPages,
+        }
+        const tabNavigation = new TabNavigation(wrapper, activeClass, options)
         tabNavigation.activeSidenavLink();
-
-        // // Get URL parameters
-        // const urlParams = new URLSearchParams(window.location.search);
-        // const tab = urlParams.get('tab') || 'user-profile';
-
-        // // Hide all tab contents and remove active classes from all tab links
-        // document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-        // document.querySelectorAll('.tab-link').forEach(el => el.classList.remove('bg-theme-clr-primary'));
-
-        // // Show the active tab content and add active class to the corresponding tab link
-        // document.querySelector(`#tab-${tab}`)?.classList.remove('hidden');
-        // document.querySelector(`#tabs-nav a[href="?tab=${tab}"]`)?.classList.add('bg-theme-clr-primary');
-
-        // function multiple(query_tab, query) {
-        //     if (tab === query) {
-        //         const element = document.querySelector(`#tabs-nav a[href="?tab=${query_tab}"]`);
-        //         element?.classList.add('bg-theme-clr-primary')
-        //     }
-        // }
-        // multiple('user-profile', 'edit-profile');
-        // multiple('orders', 'order-details');
-        // multiple('tracking', 'tracking-status');
     }
 
 

@@ -3,7 +3,7 @@
 <!-- top header -->
 <?php include "./components/top-header.php" ?>
 
-<?php include "./components/user-account-toolbar.php" ?>
+<?php include "./components/toolbar.php" ?>
 
 <section class="page-title | flex items-stretch">
     <div class="main-container flex items-center">
@@ -20,12 +20,12 @@
     <div class="main-container">
         <div class="lg:gap-4 p-2 lg:p-4">
             <h2 class="text-xl text-theme-clr-secondary mb-4 font-bold">Hi Adeleke. O</h2>
-            <div class="grid grid-cols-12 gap-2">
-                <div class="col-span-12 lg:col-span-3">
-                    <?php include "./components/user-account-sidebar.php"; ?>
-                </div>
-                <div class="col-span-12 lg:col-span-9">
-                    <div class="">
+            <div id="user-account-wrapper">
+                <div class="grid grid-cols-12 gap-2">
+                    <div class="col-span-12 lg:col-span-3">
+                        <?php include "./components/user-account-sidebar.php"; ?>
+                    </div>
+                    <div class="col-span-12 lg:col-span-9">
                         <div id="tab-contents" class="shadow rounded-lg overflow-hidden">
                             <div id="tab-user-profile" class="tab-content hidden">
                                 <?php include "./user-profile.php"; ?>

@@ -37,11 +37,11 @@
                 </tr>
             </tbody>
         </table>
-
-        <hr class="block my-4">
-
-        <a href="?tab=edit-profile" type="submit" class="inline-block bg-theme-clr-primary text-theme-clr-secondary focus:ring-4 focus:outline-none focus:ring-theme-clr-primary rounded-lg px-8 py-2.5 text-sm text-center font-semibold">
-            Edit Profile
-        </a>
     </div>
+
+    <hr class="block my-4">
+
+    <a href="?tab=edit-profile" type="submit" class="inline-block bg-theme-clr-primary text-theme-clr-secondary focus:ring-4 focus:outline-none focus:ring-theme-clr-primary rounded-lg px-8 py-2.5 text-sm text-center font-semibold">
+        Edit Profile
+    </a>
 </div>

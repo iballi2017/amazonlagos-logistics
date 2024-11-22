@@ -254,7 +254,7 @@ nav [aria-current=page]::after {
   text-align: center;
   width: 100%;
   position: relative;
-  font-weight: 600;
+  font-weight: bold;
 }
 .info-tabs .nav-list li a[aria-current=document] {
   color: var(--clr-primary);
