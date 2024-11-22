@@ -2,6 +2,18 @@ class TabNavigation {
     constructor(activeClass, defaultPage = '') {
         this.defaultPage = defaultPage;
         this.activeClass = activeClass;
+
+        this.childrenPage = [
+            {
+                wrapperPage: 'user-profile',
+                page: 'edit-profile'
+            }, {
+                wrapperPage: 'orders',
+                page: 'order-details'
+            }, {
+                wrapperPage: 'tracking',
+                page: 'tracking-status'
+            }]
     }
 
     activeSidenavLink() {
@@ -23,9 +35,12 @@ class TabNavigation {
                 element?.classList.add(activeClass)
             }
         }
-        multiple('user-profile', 'edit-profile', this.activeClass);
-        multiple('orders', 'order-details', this.activeClass);
-        multiple('tracking', 'tracking-status', this.activeClass);
+        for (let i = 0; i < this.childrenPage.length; i++) {
+            const pg = this.childrenPage[i];
+            multiple(pg.wrapperPage, pg.page, this.activeClass);
+        }
+
+
     }
 }
 

@@ -44,8 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function activeSidenavLink() {
-
-
         const tabNavigation = new TabNavigation('bg-theme-clr-primary', 'user-profile')
         tabNavigation.activeSidenavLink();
 
