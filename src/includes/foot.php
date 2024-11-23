@@ -24,6 +24,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
+<!-- chat.norby.io -->
+ <script src="./libs/chat.norby.io.js"></script>
+
 <!-- custom scripts -->
 <script src="./scripts/main.jquery.js"></script>
 <script src="./scripts/main.js" type="module"></script>
